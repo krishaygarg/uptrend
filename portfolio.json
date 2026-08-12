@@ -1,6 +1,6 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 612.89,
+  "cash_balance": 15.93,
   "total_realized_pnl": 0.0,
   "holdings": {
     "QQQ": {
@@ -26,6 +26,10 @@
     "CVX": {
       "shares": 31,
       "avg_cost": 196.66
+    },
+    "ZTO": {
+      "shares": 26,
+      "avg_cost": 22.96
     }
   },
   "history": [
@@ -38,10 +42,10 @@
     },
     {
       "date": "2026-08-12",
-      "total_value": 100000.0,
-      "cash": 100000.0,
+      "total_value": 99837.47,
+      "cash": 612.89,
       "daily_pnl": 0.0,
-      "total_pnl_pct": 0.0
+      "total_pnl_pct": -0.16
     }
   ],
   "trade_journal": [
@@ -104,6 +108,16 @@
       "total_usd": 6096.46,
       "realized_pnl": 0.0,
       "reason": "High Asymmetry (3.21x) & Conviction (89/100)"
+    },
+    {
+      "date": "2026-08-12 15:57:45",
+      "action": "BUY",
+      "ticker": "ZTO",
+      "shares": 26,
+      "price": 22.96,
+      "total_usd": 596.96,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (5.16x) & Conviction (89/100) (Partial \u2014 limited by available buying power $613)"
     }
   ]
 }

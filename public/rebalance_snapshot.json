@@ -1,56 +1,16 @@
 {
-  "total_equity": 100000.0,
-  "holdings_valuation": 0.0,
-  "current_cash": 100000.0,
+  "total_equity": 99837.47,
+  "holdings_valuation": 99224.58,
+  "current_cash": 612.89,
   "target_cash_reserve": 0.0,
   "rebalancing_trades": [
     {
       "action": "BUY",
-      "ticker": "QQQ",
-      "shares": 83,
-      "price": 718.45,
-      "total_usd": 59631.35,
-      "reason": "Core Index Anchor allocation."
-    },
-    {
-      "action": "BUY",
-      "ticker": "CINF",
-      "shares": 65,
-      "price": 173.21,
-      "total_usd": 11258.65,
-      "reason": "High Asymmetry (5.65x) & Conviction (93/100)"
-    },
-    {
-      "action": "BUY",
-      "ticker": "SQM",
-      "shares": 120,
-      "price": 72.22,
-      "total_usd": 8666.4,
-      "reason": "High Asymmetry (4.46x) & Conviction (90/100)"
-    },
-    {
-      "action": "BUY",
-      "ticker": "OXY",
-      "shares": 128,
-      "price": 59.06,
-      "total_usd": 7559.68,
-      "reason": "High Asymmetry (3.77x) & Conviction (93/100)"
-    },
-    {
-      "action": "BUY",
-      "ticker": "INCY",
-      "shares": 51,
-      "price": 121.07,
-      "total_usd": 6174.57,
-      "reason": "High Asymmetry (3.21x) & Conviction (89/100)"
-    },
-    {
-      "action": "BUY",
-      "ticker": "CVX",
-      "shares": 31,
-      "price": 196.66,
-      "total_usd": 6096.46,
-      "reason": "High Asymmetry (3.21x) & Conviction (89/100)"
+      "ticker": "ZTO",
+      "shares": 26,
+      "price": 22.96,
+      "total_usd": 596.96,
+      "reason": "High Asymmetry (5.16x) & Conviction (89/100) (Partial \u2014 limited by available buying power $613)"
     }
   ],
   "target_portfolio": [
@@ -68,56 +28,56 @@
     {
       "ticker": "CINF",
       "company_name": "Cincinnati Financial Corporation",
-      "price": 173.21,
-      "target_shares": 65,
-      "target_value": 11258.65,
-      "target_weight_pct": 11.4,
+      "price": 173.25,
+      "target_shares": 59,
+      "target_value": 10221.75,
+      "target_weight_pct": 10.3,
       "conviction_score": 93,
-      "asymmetry_ratio": 5.65,
+      "asymmetry_ratio": 5.61,
       "is_core": false
     },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
-      "price": 59.06,
-      "target_shares": 128,
-      "target_value": 7559.68,
-      "target_weight_pct": 7.6,
-      "conviction_score": 93,
-      "asymmetry_ratio": 3.77,
+      "price": 58.38,
+      "target_shares": 105,
+      "target_value": 6129.9,
+      "target_weight_pct": 6.1,
+      "conviction_score": 91,
+      "asymmetry_ratio": 3.42,
       "is_core": false
     },
     {
       "ticker": "SQM",
       "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 72.22,
-      "target_shares": 120,
-      "target_value": 8666.4,
-      "target_weight_pct": 8.7,
+      "price": 71.47,
+      "target_shares": 122,
+      "target_value": 8719.34,
+      "target_weight_pct": 8.8,
       "conviction_score": 90,
-      "asymmetry_ratio": 4.46,
+      "asymmetry_ratio": 4.94,
+      "is_core": false
+    },
+    {
+      "ticker": "ZTO",
+      "company_name": "ZTO Express (Cayman) Inc.",
+      "price": 22.96,
+      "target_shares": 394,
+      "target_value": 9046.24,
+      "target_weight_pct": 9.1,
+      "conviction_score": 89,
+      "asymmetry_ratio": 5.16,
       "is_core": false
     },
     {
       "ticker": "CVX",
       "company_name": "Chevron Corporation",
-      "price": 196.66,
-      "target_shares": 31,
-      "target_value": 6096.46,
-      "target_weight_pct": 6.2,
+      "price": 196.6,
+      "target_shares": 28,
+      "target_value": 5504.8,
+      "target_weight_pct": 5.7,
       "conviction_score": 89,
-      "asymmetry_ratio": 3.21,
-      "is_core": false
-    },
-    {
-      "ticker": "INCY",
-      "company_name": "Incyte Corporation",
-      "price": 121.07,
-      "target_shares": 51,
-      "target_value": 6174.57,
-      "target_weight_pct": 6.2,
-      "conviction_score": 89,
-      "asymmetry_ratio": 3.21,
+      "asymmetry_ratio": 3.23,
       "is_core": false
     }
   ]
