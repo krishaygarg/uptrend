@@ -29,16 +29,21 @@ export default function App() {
 
   const fetchData = async () => {
     setLoading(true);
+    const ts = Date.now();
     try {
       // Fetch portfolio (FastAPI endpoint or Cloudflare Pages static fallback)
       let portData = null;
       try {
         const resPort = await fetch('/api/portfolio');
-        if (resPort.ok) portData = await resPort.json();
+        const cType = resPort.headers.get("content-type") || "";
+        if (resPort.ok && cType.includes("application/json")) {
+          portData = await resPort.json();
+        }
       } catch (e) {}
-      if (!portData) {
-        const resStaticPort = await fetch('/portfolio.json');
-        portData = await resStaticPort.json();
+
+      if (!portData || portData.cash_balance === undefined) {
+        const resStaticPort = await fetch(`/portfolio.json?t=${ts}`);
+        if (resStaticPort.ok) portData = await resStaticPort.json();
       }
 
       // Normalize holdings from object to array if loaded from static portfolio.json
@@ -78,28 +83,33 @@ export default function App() {
       let rebData = null;
       try {
         const resReb = await fetch('/api/rebalance');
-        if (resReb.ok) rebData = await resReb.json();
+        const cType = resReb.headers.get("content-type") || "";
+        if (resReb.ok && cType.includes("application/json")) {
+          rebData = await resReb.json();
+        }
       } catch (e) {}
       if (!rebData) {
-        const resStaticReb = await fetch('/rebalance_snapshot.json');
-        rebData = await resStaticReb.json();
+        const resStaticReb = await fetch(`/rebalance_snapshot.json?t=${ts}`);
+        if (resStaticReb.ok) rebData = await resStaticReb.json();
       }
       setRebalance(rebData);
 
       // Fetch gems
       let gemsData = null;
       try {
-        const url = category === 'ALL' ? '/api/hidden-gems' : `/api/hidden-gems?category=${category}`;
-        const resGems = await fetch(url);
-        if (resGems.ok) gemsData = await resGems.json();
+        const resGems = await fetch('/api/gems');
+        const cType = resGems.headers.get("content-type") || "";
+        if (resGems.ok && cType.includes("application/json")) {
+          gemsData = await resGems.json();
+        }
       } catch (e) {}
       if (!gemsData) {
-        const resStaticGems = await fetch('/gems_snapshot.json');
-        gemsData = await resStaticGems.json();
+        const resStaticGems = await fetch(`/gems_snapshot.json?t=${ts}`);
+        if (resStaticGems.ok) gemsData = await resStaticGems.json();
       }
-      setGems(gemsData?.recommendations || []);
+      setGems(gemsData || []);
     } catch (err) {
-      console.error("Error fetching data:", err);
+      console.error("Failed to load portfolio data:", err);
     } finally {
       setLoading(false);
     }
