@@ -1,9 +1,58 @@
 {
-  "total_equity": 99440.14,
-  "holdings_valuation": 99440.14,
-  "current_cash": 0.0,
+  "total_equity": 100000.0,
+  "holdings_valuation": 0.0,
+  "current_cash": 100000.0,
   "target_cash_reserve": 0.0,
-  "rebalancing_trades": [],
+  "rebalancing_trades": [
+    {
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 83,
+      "price": 718.45,
+      "total_usd": 59631.35,
+      "reason": "Core Index Anchor allocation."
+    },
+    {
+      "action": "BUY",
+      "ticker": "CINF",
+      "shares": 60,
+      "price": 173.21,
+      "total_usd": 10392.6,
+      "reason": "High Asymmetry (5.65x) & Conviction (93/100)"
+    },
+    {
+      "action": "BUY",
+      "ticker": "ZTO",
+      "shares": 377,
+      "price": 23.15,
+      "total_usd": 8727.55,
+      "reason": "High Asymmetry (4.92x) & Conviction (89/100)"
+    },
+    {
+      "action": "BUY",
+      "ticker": "SQM",
+      "shares": 111,
+      "price": 72.22,
+      "total_usd": 8016.42,
+      "reason": "High Asymmetry (4.49x) & Conviction (90/100)"
+    },
+    {
+      "action": "BUY",
+      "ticker": "OXY",
+      "shares": 118,
+      "price": 59.06,
+      "total_usd": 6969.08,
+      "reason": "High Asymmetry (3.77x) & Conviction (93/100)"
+    },
+    {
+      "action": "BUY",
+      "ticker": "CVX",
+      "shares": 29,
+      "price": 196.66,
+      "total_usd": 5703.14,
+      "reason": "High Asymmetry (3.21x) & Conviction (89/100)"
+    }
+  ],
   "target_portfolio": [
     {
       "ticker": "QQQ",
@@ -31,8 +80,8 @@
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
       "price": 59.06,
-      "target_shares": 117,
-      "target_value": 6910.02,
+      "target_shares": 118,
+      "target_value": 6969.08,
       "target_weight_pct": 7.0,
       "conviction_score": 93,
       "asymmetry_ratio": 3.77,
@@ -53,8 +102,8 @@
       "ticker": "ZTO",
       "company_name": "ZTO Express (Cayman) Inc.",
       "price": 23.15,
-      "target_shares": 375,
-      "target_value": 8681.25,
+      "target_shares": 377,
+      "target_value": 8727.55,
       "target_weight_pct": 8.7,
       "conviction_score": 89,
       "asymmetry_ratio": 4.92,
@@ -64,8 +113,8 @@
       "ticker": "CVX",
       "company_name": "Chevron Corporation",
       "price": 196.66,
-      "target_shares": 28,
-      "target_value": 5506.48,
+      "target_shares": 29,
+      "target_value": 5703.14,
       "target_weight_pct": 5.7,
       "conviction_score": 89,
       "asymmetry_ratio": 3.21,
