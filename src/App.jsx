@@ -107,7 +107,11 @@ export default function App() {
         const resStaticGems = await fetch(`/gems_snapshot.json?t=${ts}`);
         if (resStaticGems.ok) gemsData = await resStaticGems.json();
       }
-      setGems(gemsData || []);
+
+      const gemsArray = Array.isArray(gemsData)
+        ? gemsData
+        : (gemsData?.recommendations || gemsData?.top_gems || []);
+      setGems(gemsArray);
     } catch (err) {
       console.error("Failed to load portfolio data:", err);
     } finally {
@@ -161,10 +165,11 @@ export default function App() {
     return Math.max(1, Math.round(baseVal * factor * 100) / 100);
   };
 
-  const pieData = portfolio?.holdings.map(h => ({
+  const holdingsList = Array.isArray(portfolio?.holdings) ? portfolio.holdings : [];
+  const pieData = holdingsList.map(h => ({
     name: h.ticker,
     value: h.market_value
-  })) || [];
+  }));
 
   if (portfolio?.cash_balance > 0) {
     pieData.push({ name: 'Cash Cushion', value: portfolio.cash_balance });
@@ -268,7 +273,7 @@ export default function App() {
 
           {rebalance.rebalancing_trades.length > 0 && (
             <div style={{ marginTop: '1rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '0.75rem' }}>
-              {rebalance.rebalancing_trades.map((tr, idx) => (
+              {(Array.isArray(rebalance?.rebalancing_trades) ? rebalance.rebalancing_trades : []).map((tr, idx) => (
                 <div key={idx} style={{ background: 'rgba(0, 0, 0, 0.3)', padding: '0.75rem 1rem', borderRadius: '10px', borderLeft: tr.action === 'BUY' ? '4px solid #10b981' : '4px solid #f43f5e' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', fontWeight: '600', fontSize: '0.9rem' }}>
                     <span style={{ color: tr.action === 'BUY' ? 'var(--accent-emerald)' : 'var(--accent-rose)' }}>
@@ -318,7 +323,7 @@ export default function App() {
         </div>
       ) : (
         <div className="stock-grid">
-          {gems.map(stock => (
+          {(Array.isArray(gems) ? gems : []).map(stock => (
             <div 
               key={stock.ticker} 
               className="glass-card stock-card"
@@ -420,7 +425,7 @@ export default function App() {
                 </tr>
               </thead>
               <tbody>
-                {portfolio.holdings.map(h => (
+                {holdingsList.map(h => (
                   <tr key={h.ticker}>
                     <td className="mono" style={{ fontWeight: '700' }}>{h.ticker}</td>
                     <td>{h.shares}</td>
