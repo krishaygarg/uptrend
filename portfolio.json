@@ -1,8 +1,33 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 100000.0,
+  "cash_balance": 612.89,
   "total_realized_pnl": 0.0,
-  "holdings": {},
+  "holdings": {
+    "QQQ": {
+      "shares": 83,
+      "avg_cost": 718.45
+    },
+    "CINF": {
+      "shares": 65,
+      "avg_cost": 173.21
+    },
+    "SQM": {
+      "shares": 120,
+      "avg_cost": 72.22
+    },
+    "OXY": {
+      "shares": 128,
+      "avg_cost": 59.06
+    },
+    "INCY": {
+      "shares": 51,
+      "avg_cost": 121.07
+    },
+    "CVX": {
+      "shares": 31,
+      "avg_cost": 196.66
+    }
+  },
   "history": [
     {
       "date": "2026-08-11",
@@ -10,7 +35,75 @@
       "cash": 100000.0,
       "daily_pnl": 0.0,
       "total_pnl_pct": 0.0
+    },
+    {
+      "date": "2026-08-12",
+      "total_value": 100000.0,
+      "cash": 100000.0,
+      "daily_pnl": 0.0,
+      "total_pnl_pct": 0.0
     }
   ],
-  "trade_journal": []
+  "trade_journal": [
+    {
+      "date": "2026-08-12 04:30:43",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 83,
+      "price": 718.45,
+      "total_usd": 59631.35,
+      "realized_pnl": 0.0,
+      "reason": "Core Index Anchor allocation."
+    },
+    {
+      "date": "2026-08-12 04:30:43",
+      "action": "BUY",
+      "ticker": "CINF",
+      "shares": 65,
+      "price": 173.21,
+      "total_usd": 11258.65,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (5.65x) & Conviction (93/100)"
+    },
+    {
+      "date": "2026-08-12 04:30:43",
+      "action": "BUY",
+      "ticker": "SQM",
+      "shares": 120,
+      "price": 72.22,
+      "total_usd": 8666.4,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (4.46x) & Conviction (90/100)"
+    },
+    {
+      "date": "2026-08-12 04:30:43",
+      "action": "BUY",
+      "ticker": "OXY",
+      "shares": 128,
+      "price": 59.06,
+      "total_usd": 7559.68,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (3.77x) & Conviction (93/100)"
+    },
+    {
+      "date": "2026-08-12 04:30:43",
+      "action": "BUY",
+      "ticker": "INCY",
+      "shares": 51,
+      "price": 121.07,
+      "total_usd": 6174.57,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (3.21x) & Conviction (89/100)"
+    },
+    {
+      "date": "2026-08-12 04:30:43",
+      "action": "BUY",
+      "ticker": "CVX",
+      "shares": 31,
+      "price": 196.66,
+      "total_usd": 6096.46,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (3.21x) & Conviction (89/100)"
+    }
+  ]
 }

@@ -15,41 +15,41 @@
     {
       "action": "BUY",
       "ticker": "CINF",
-      "shares": 60,
+      "shares": 65,
       "price": 173.21,
-      "total_usd": 10392.6,
+      "total_usd": 11258.65,
       "reason": "High Asymmetry (5.65x) & Conviction (93/100)"
     },
     {
       "action": "BUY",
-      "ticker": "ZTO",
-      "shares": 377,
-      "price": 23.15,
-      "total_usd": 8727.55,
-      "reason": "High Asymmetry (4.92x) & Conviction (89/100)"
-    },
-    {
-      "action": "BUY",
       "ticker": "SQM",
-      "shares": 111,
+      "shares": 120,
       "price": 72.22,
-      "total_usd": 8016.42,
-      "reason": "High Asymmetry (4.49x) & Conviction (90/100)"
+      "total_usd": 8666.4,
+      "reason": "High Asymmetry (4.46x) & Conviction (90/100)"
     },
     {
       "action": "BUY",
       "ticker": "OXY",
-      "shares": 118,
+      "shares": 128,
       "price": 59.06,
-      "total_usd": 6969.08,
+      "total_usd": 7559.68,
       "reason": "High Asymmetry (3.77x) & Conviction (93/100)"
     },
     {
       "action": "BUY",
+      "ticker": "INCY",
+      "shares": 51,
+      "price": 121.07,
+      "total_usd": 6174.57,
+      "reason": "High Asymmetry (3.21x) & Conviction (89/100)"
+    },
+    {
+      "action": "BUY",
       "ticker": "CVX",
-      "shares": 29,
+      "shares": 31,
       "price": 196.66,
-      "total_usd": 5703.14,
+      "total_usd": 6096.46,
       "reason": "High Asymmetry (3.21x) & Conviction (89/100)"
     }
   ],
@@ -69,9 +69,9 @@
       "ticker": "CINF",
       "company_name": "Cincinnati Financial Corporation",
       "price": 173.21,
-      "target_shares": 60,
-      "target_value": 10392.6,
-      "target_weight_pct": 10.5,
+      "target_shares": 65,
+      "target_value": 11258.65,
+      "target_weight_pct": 11.4,
       "conviction_score": 93,
       "asymmetry_ratio": 5.65,
       "is_core": false
@@ -80,9 +80,9 @@
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
       "price": 59.06,
-      "target_shares": 118,
-      "target_value": 6969.08,
-      "target_weight_pct": 7.0,
+      "target_shares": 128,
+      "target_value": 7559.68,
+      "target_weight_pct": 7.6,
       "conviction_score": 93,
       "asymmetry_ratio": 3.77,
       "is_core": false
@@ -91,31 +91,31 @@
       "ticker": "SQM",
       "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
       "price": 72.22,
-      "target_shares": 111,
-      "target_value": 8016.42,
-      "target_weight_pct": 8.1,
-      "conviction_score": 90,
-      "asymmetry_ratio": 4.49,
-      "is_core": false
-    },
-    {
-      "ticker": "ZTO",
-      "company_name": "ZTO Express (Cayman) Inc.",
-      "price": 23.15,
-      "target_shares": 377,
-      "target_value": 8727.55,
+      "target_shares": 120,
+      "target_value": 8666.4,
       "target_weight_pct": 8.7,
-      "conviction_score": 89,
-      "asymmetry_ratio": 4.92,
+      "conviction_score": 90,
+      "asymmetry_ratio": 4.46,
       "is_core": false
     },
     {
       "ticker": "CVX",
       "company_name": "Chevron Corporation",
       "price": 196.66,
-      "target_shares": 29,
-      "target_value": 5703.14,
-      "target_weight_pct": 5.7,
+      "target_shares": 31,
+      "target_value": 6096.46,
+      "target_weight_pct": 6.2,
+      "conviction_score": 89,
+      "asymmetry_ratio": 3.21,
+      "is_core": false
+    },
+    {
+      "ticker": "INCY",
+      "company_name": "Incyte Corporation",
+      "price": 121.07,
+      "target_shares": 51,
+      "target_value": 6174.57,
+      "target_weight_pct": 6.2,
       "conviction_score": 89,
       "asymmetry_ratio": 3.21,
       "is_core": false
