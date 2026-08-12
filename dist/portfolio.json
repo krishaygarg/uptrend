@@ -1,0 +1,40 @@
+{
+  "cash_balance": 0.0,
+  "holdings": {
+    "QQQ": {
+      "shares": 83,
+      "avg_cost": 718.45
+    },
+    "CINF": {
+      "shares": 60,
+      "avg_cost": 173.21
+    },
+    "OXY": {
+      "shares": 118,
+      "avg_cost": 59.06
+    },
+    "SQM": {
+      "shares": 111,
+      "avg_cost": 72.22
+    },
+    "ZTO": {
+      "shares": 377,
+      "avg_cost": 23.15
+    },
+    "CVX": {
+      "shares": 29,
+      "avg_cost": 196.66
+    }
+  },
+  "history": [
+    {
+      "date": "2026-08-11",
+      "total_value": 99440.14,
+      "cash": 0.0,
+      "total_pnl_pct": -0.56
+    }
+  ],
+  "initial_capital": 100000.0,
+  "total_realized_pnl": 0.0,
+  "trade_journal": []
+}

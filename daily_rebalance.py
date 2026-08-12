@@ -196,6 +196,16 @@ def main():
     print(f"{CYAN}To view interactive web dashboard, run: ./venv/bin/uvicorn backend.app:app --port 8000{RESET}")
     print(f"{YELLOW}To automatically execute these trades and update profit tracking, run: ./daily_rebalance.py --apply{RESET}\n")
 
+    # Export public static JSON snapshots for Cloudflare Pages zero-backend deployment
+    public_dir = os.path.join(PROJECT_DIR, "public")
+    os.makedirs(public_dir, exist_ok=True)
+    with open(os.path.join(public_dir, "portfolio.json"), "w") as f:
+        json.dump(portfolio, f, indent=2)
+    with open(os.path.join(public_dir, "rebalance_snapshot.json"), "w") as f:
+        json.dump(rebalance_result, f, indent=2)
+    with open(os.path.join(public_dir, "gems_snapshot.json"), "w") as f:
+        json.dump({"count": len(analyzed_stocks), "recommendations": analyzed_stocks[:50]}, f, indent=2)
+
     # If --apply flag is passed, execute trades locally
     if args.apply and trades:
         print(f"{BOLD}⚡ APPLYING TRADES TO PORTFOLIO STATE...{RESET}")
@@ -209,7 +219,12 @@ def main():
             )
             color = GREEN if success else RED
             print(f"  {color}↳ {msg}{RESET}")
-        print(f"\n{GREEN}✓ Trades executed! Run './daily_rebalance.py --performance' to view profit tracker.{RESET}\n")
+
+        # Re-save updated public portfolio snapshot
+        updated_port = load_portfolio()
+        with open(os.path.join(public_dir, "portfolio.json"), "w") as f:
+            json.dump(updated_port, f, indent=2)
+        print(f"\n{GREEN}✓ Trades executed & Cloudflare static snapshots updated! Run './daily_rebalance.py --performance' to view profit tracker.{RESET}\n")
 
 if __name__ == "__main__":
     main()

@@ -30,22 +30,74 @@ export default function App() {
   const fetchData = async () => {
     setLoading(true);
     try {
-      // Fetch portfolio
-      const resPort = await fetch('/api/portfolio');
-      const portData = await resPort.json();
+      // Fetch portfolio (FastAPI endpoint or Cloudflare Pages static fallback)
+      let portData = null;
+      try {
+        const resPort = await fetch('/api/portfolio');
+        if (resPort.ok) portData = await resPort.json();
+      } catch (e) {}
+      if (!portData) {
+        const resStaticPort = await fetch('/portfolio.json');
+        portData = await resStaticPort.json();
+      }
+
+      // Normalize holdings from object to array if loaded from static portfolio.json
+      if (portData && !Array.isArray(portData.holdings)) {
+        const holdingsDict = portData.holdings || {};
+        let totalHoldingsVal = 0;
+        const holdingsArray = Object.entries(holdingsDict).map(([ticker, hdata]) => {
+          const shares = hdata.shares || 0;
+          const avgCost = hdata.avg_cost || 0;
+          const marketVal = shares * avgCost;
+          totalHoldingsVal += marketVal;
+          return {
+            ticker,
+            company_name: ticker,
+            shares,
+            avg_cost: avgCost,
+            current_price: avgCost,
+            market_value: marketVal,
+            unrealized_pnl: 0,
+            unrealized_pnl_pct: 0,
+            asymmetry_ratio: 1.0,
+            conviction_score: 90
+          };
+        });
+        portData = {
+          ...portData,
+          total_holdings_value: totalHoldingsVal,
+          total_equity: (portData.cash_balance || 0) + totalHoldingsVal,
+          holdings: holdingsArray
+        };
+      }
+
       setPortfolio(portData);
-      setEditCash(portData.cash_balance);
+      if (portData && portData.cash_balance !== undefined) setEditCash(portData.cash_balance);
 
       // Fetch rebalance instructions
-      const resReb = await fetch('/api/rebalance');
-      const rebData = await resReb.json();
+      let rebData = null;
+      try {
+        const resReb = await fetch('/api/rebalance');
+        if (resReb.ok) rebData = await resReb.json();
+      } catch (e) {}
+      if (!rebData) {
+        const resStaticReb = await fetch('/rebalance_snapshot.json');
+        rebData = await resStaticReb.json();
+      }
       setRebalance(rebData);
 
       // Fetch gems
-      const url = category === 'ALL' ? '/api/hidden-gems' : `/api/hidden-gems?category=${category}`;
-      const resGems = await fetch(url);
-      const gemsData = await resGems.json();
-      setGems(gemsData.recommendations || []);
+      let gemsData = null;
+      try {
+        const url = category === 'ALL' ? '/api/hidden-gems' : `/api/hidden-gems?category=${category}`;
+        const resGems = await fetch(url);
+        if (resGems.ok) gemsData = await resGems.json();
+      } catch (e) {}
+      if (!gemsData) {
+        const resStaticGems = await fetch('/gems_snapshot.json');
+        gemsData = await resStaticGems.json();
+      }
+      setGems(gemsData?.recommendations || []);
     } catch (err) {
       console.error("Error fetching data:", err);
     } finally {
