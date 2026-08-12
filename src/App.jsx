@@ -25,6 +25,10 @@ export default function App() {
 
   useEffect(() => {
     fetchData();
+    const interval = setInterval(() => {
+      fetchData();
+    }, 60000);
+    return () => clearInterval(interval);
   }, [category]);
 
   const fetchData = async () => {
@@ -74,6 +78,50 @@ export default function App() {
           total_equity: (portData.cash_balance || 0) + totalHoldingsVal,
           holdings: holdingsArray
         };
+      }
+
+      // Fetch live market quotes for holdings in real time
+      if (portData && Array.isArray(portData.holdings) && portData.holdings.length > 0) {
+        try {
+          let updatedTotalHoldings = 0;
+          const updatedHoldings = await Promise.all(
+            portData.holdings.map(async (h) => {
+              let cp = h.current_price || h.avg_cost;
+              try {
+                const resQuote = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${h.ticker}`);
+                if (resQuote.ok) {
+                  const qData = await resQuote.json();
+                  const meta = qData?.chart?.result?.[0]?.meta;
+                  if (meta && meta.regularMarketPrice) {
+                    cp = meta.regularMarketPrice;
+                  }
+                }
+              } catch (e) {}
+
+              const shares = h.shares || 0;
+              const avgCost = h.avg_cost || 0;
+              const mktVal = shares * cp;
+              const unPnl = (cp - avgCost) * shares;
+              const unPnlPct = avgCost > 0 ? ((cp - avgCost) / avgCost) * 100 : 0;
+              updatedTotalHoldings += mktVal;
+
+              return {
+                ...h,
+                current_price: Math.round(cp * 100) / 100,
+                market_value: Math.round(mktVal * 100) / 100,
+                unrealized_pnl: Math.round(unPnl * 100) / 100,
+                unrealized_pnl_pct: Math.round(unPnlPct * 100) / 100
+              };
+            })
+          );
+
+          portData = {
+            ...portData,
+            total_holdings_value: Math.round(updatedTotalHoldings * 100) / 100,
+            total_equity: Math.round(((portData.cash_balance || 0) + updatedTotalHoldings) * 100) / 100,
+            holdings: updatedHoldings
+          };
+        } catch (e) {}
       }
 
       setPortfolio(portData);
