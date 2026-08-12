@@ -2,7 +2,6 @@ node_modules/
 venv/
 .cache/
 .env
-dist/assets/*.map
 *.pyc
 __pycache__/
 .DS_Store
