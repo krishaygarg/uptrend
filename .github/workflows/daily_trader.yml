@@ -2,8 +2,8 @@ name: UpTrend Daily 8 AM Pacific Auto-Trader
 
 on:
   schedule:
-    # 15:00 UTC = 8:00 AM PDT (Monday-Friday)
-    - cron: '0 15 * * 1-5'
+    # Run every hour during US Market Trading Hours (14:00-21:00 UTC = 7:00 AM - 2:00 PM PDT, Monday-Friday)
+    - cron: '0 14-21 * * 1-5'
   workflow_dispatch:
 
 permissions:

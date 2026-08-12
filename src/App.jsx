@@ -88,8 +88,13 @@ export default function App() {
             portData.holdings.map(async (h) => {
               let cp = h.current_price || h.avg_cost;
               try {
-                const resQuote = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${h.ticker}`);
-                if (resQuote.ok) {
+                let resQuote = null;
+                try {
+                  resQuote = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${h.ticker}`);
+                } catch (err) {
+                  resQuote = await fetch(`https://api.allorigins.win/raw?url=${encodeURIComponent(`https://query1.finance.yahoo.com/v8/finance/chart/${h.ticker}`)}`);
+                }
+                if (resQuote && resQuote.ok) {
                   const qData = await resQuote.json();
                   const meta = qData?.chart?.result?.[0]?.meta;
                   if (meta && meta.regularMarketPrice) {
