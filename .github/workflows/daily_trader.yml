@@ -43,5 +43,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Auto-Trader"
-          git add portfolio.json public/ dist/ backend/.cache/
+          git add portfolio.json public/ dist/
           git diff --quiet && git diff --staged --quiet || (git commit -m "UpTrend Auto-Trader Daily Execution [$(date +'%Y-%m-%d')]" && git push)
