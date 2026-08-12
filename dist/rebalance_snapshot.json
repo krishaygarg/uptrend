@@ -53,22 +53,22 @@
       "ticker": "ZTO",
       "company_name": "ZTO Express (Cayman) Inc.",
       "price": 23.14,
-      "target_shares": 372,
-      "target_value": 8608.08,
-      "target_weight_pct": 8.7,
+      "target_shares": 369,
+      "target_value": 8538.66,
+      "target_weight_pct": 8.6,
       "conviction_score": 89,
-      "asymmetry_ratio": 4.93,
+      "asymmetry_ratio": 4.87,
       "is_core": false
     },
     {
-      "ticker": "CVX",
-      "company_name": "Chevron Corporation",
-      "price": 196.6,
-      "target_shares": 28,
-      "target_value": 5504.8,
+      "ticker": "EOG",
+      "company_name": "EOG Resources, Inc.",
+      "price": 143.14,
+      "target_shares": 39,
+      "target_value": 5582.46,
       "target_weight_pct": 5.7,
       "conviction_score": 89,
-      "asymmetry_ratio": 3.23,
+      "asymmetry_ratio": 3.24,
       "is_core": false
     }
   ]
