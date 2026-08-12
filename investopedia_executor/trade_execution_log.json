@@ -1,0 +1,136 @@
+[
+  {
+    "timestamp": "2026-08-11 20:33:34",
+    "total_equity": 99146.1,
+    "trades_suggested": [
+      {
+        "action": "SELL",
+        "ticker": "QQQ",
+        "shares": 138,
+        "price": 718.45,
+        "total_usd": 99146.1,
+        "reason": "Lower asymmetry score compared to top gems."
+      },
+      {
+        "action": "BUY",
+        "ticker": "CINF",
+        "shares": 67,
+        "price": 173.21,
+        "total_usd": 11605.07,
+        "reason": "High Asymmetry (5.65x) & Conviction (98/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "OXY",
+        "shares": 192,
+        "price": 59.06,
+        "total_usd": 11339.52,
+        "reason": "High Asymmetry (3.49x) & Conviction (96/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "SQM",
+        "shares": 155,
+        "price": 72.22,
+        "total_usd": 11194.1,
+        "reason": "High Asymmetry (5.43x) & Conviction (95/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "ZTO",
+        "shares": 481,
+        "price": 23.15,
+        "total_usd": 11135.15,
+        "reason": "High Asymmetry (4.92x) & Conviction (94/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "EOG",
+        "shares": 77,
+        "price": 143.4,
+        "total_usd": 11041.8,
+        "reason": "High Asymmetry (3.19x) & Conviction (94/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "CVX",
+        "shares": 56,
+        "price": 196.66,
+        "total_usd": 11012.96,
+        "reason": "High Asymmetry (3.17x) & Conviction (94/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "NU",
+        "shares": 790,
+        "price": 13.65,
+        "total_usd": 10783.5,
+        "reason": "High Asymmetry (16.93x) & Conviction (91/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "AA",
+        "shares": 199,
+        "price": 54.08,
+        "total_usd": 10761.92,
+        "reason": "High Asymmetry (6.85x) & Conviction (91/100)"
+      }
+    ],
+    "trades_executed": []
+  },
+  {
+    "timestamp": "2026-08-11 21:04:46",
+    "total_equity": 100000.0,
+    "trades_suggested": [
+      {
+        "action": "BUY",
+        "ticker": "QQQ",
+        "shares": 83,
+        "price": 718.45,
+        "total_usd": 59631.35,
+        "reason": "Core Index Anchor allocation."
+      },
+      {
+        "action": "BUY",
+        "ticker": "CINF",
+        "shares": 60,
+        "price": 173.21,
+        "total_usd": 10392.6,
+        "reason": "High Asymmetry (5.65x) & Conviction (93/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "ZTO",
+        "shares": 377,
+        "price": 23.15,
+        "total_usd": 8727.55,
+        "reason": "High Asymmetry (4.92x) & Conviction (89/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "SQM",
+        "shares": 111,
+        "price": 72.22,
+        "total_usd": 8016.42,
+        "reason": "High Asymmetry (4.49x) & Conviction (90/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "OXY",
+        "shares": 118,
+        "price": 59.06,
+        "total_usd": 6969.08,
+        "reason": "High Asymmetry (3.77x) & Conviction (93/100)"
+      },
+      {
+        "action": "BUY",
+        "ticker": "CVX",
+        "shares": 29,
+        "price": 196.66,
+        "total_usd": 5703.14,
+        "reason": "High Asymmetry (3.21x) & Conviction (89/100)"
+      }
+    ],
+    "trades_executed": []
+  }
+]

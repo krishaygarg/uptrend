@@ -1,0 +1,33 @@
+2026-08-11 20:33:26,106 [INFO] === Starting Daily AlphaPulse Investopedia Auto-Trader ===
+2026-08-11 20:33:26,107 [INFO] Current Portfolio Valuation: Cash = $0.00, Active Holdings = ['QQQ']
+2026-08-11 20:33:26,107 [INFO] Scanning 458 stocks across market caps for high-asymmetry gems...
+2026-08-11 20:33:34,464 [INFO] Scan complete. Found 426 valid stocks.
+2026-08-11 20:33:34,465 [INFO] Found 9 trade actions suggested for today:
+2026-08-11 20:33:34,465 [INFO]   [SELL] 138 shares of QQQ @ ~$718.45 (Lower asymmetry score compared to top gems.)
+2026-08-11 20:33:34,465 [INFO]   [BUY] 67 shares of CINF @ ~$173.21 (High Asymmetry (5.65x) & Conviction (98/100))
+2026-08-11 20:33:34,465 [INFO]   [BUY] 192 shares of OXY @ ~$59.06 (High Asymmetry (3.49x) & Conviction (96/100))
+2026-08-11 20:33:34,465 [INFO]   [BUY] 155 shares of SQM @ ~$72.22 (High Asymmetry (5.43x) & Conviction (95/100))
+2026-08-11 20:33:34,465 [INFO]   [BUY] 481 shares of ZTO @ ~$23.15 (High Asymmetry (4.92x) & Conviction (94/100))
+2026-08-11 20:33:34,465 [INFO]   [BUY] 77 shares of EOG @ ~$143.40 (High Asymmetry (3.19x) & Conviction (94/100))
+2026-08-11 20:33:34,465 [INFO]   [BUY] 56 shares of CVX @ ~$196.66 (High Asymmetry (3.17x) & Conviction (94/100))
+2026-08-11 20:33:34,465 [INFO]   [BUY] 790 shares of NU @ ~$13.65 (High Asymmetry (16.93x) & Conviction (91/100))
+2026-08-11 20:33:34,465 [INFO]   [BUY] 199 shares of AA @ ~$54.08 (High Asymmetry (6.85x) & Conviction (91/100))
+2026-08-11 20:33:34,465 [WARNING] INVESTOPEDIA_EMAIL / INVESTOPEDIA_PASSWORD not configured in .env.
+2026-08-11 20:33:34,465 [WARNING] Simulating local portfolio state update...
+2026-08-11 20:33:34,465 [INFO] ✓ portfolio.json state updated with new target holdings!
+2026-08-11 20:33:34,465 [INFO] === Daily Auto-Trader Completed Successfully ===
+2026-08-11 21:04:43,457 [INFO] === Starting Daily AlphaPulse Investopedia Auto-Trader ===
+2026-08-11 21:04:43,457 [INFO] Current Portfolio Valuation: Cash = $100,000.00, Active Holdings = []
+2026-08-11 21:04:43,457 [INFO] Scanning 458 stocks across market caps for high-asymmetry gems...
+2026-08-11 21:04:46,714 [INFO] Scan complete. Found 419 valid stocks.
+2026-08-11 21:04:46,715 [INFO] Found 6 trade actions suggested for today:
+2026-08-11 21:04:46,715 [INFO]   [BUY] 83 shares of QQQ @ ~$718.45 (Core Index Anchor allocation.)
+2026-08-11 21:04:46,715 [INFO]   [BUY] 60 shares of CINF @ ~$173.21 (High Asymmetry (5.65x) & Conviction (93/100))
+2026-08-11 21:04:46,715 [INFO]   [BUY] 377 shares of ZTO @ ~$23.15 (High Asymmetry (4.92x) & Conviction (89/100))
+2026-08-11 21:04:46,715 [INFO]   [BUY] 111 shares of SQM @ ~$72.22 (High Asymmetry (4.49x) & Conviction (90/100))
+2026-08-11 21:04:46,715 [INFO]   [BUY] 118 shares of OXY @ ~$59.06 (High Asymmetry (3.77x) & Conviction (93/100))
+2026-08-11 21:04:46,715 [INFO]   [BUY] 29 shares of CVX @ ~$196.66 (High Asymmetry (3.21x) & Conviction (89/100))
+2026-08-11 21:04:46,716 [WARNING] INVESTOPEDIA_EMAIL / INVESTOPEDIA_PASSWORD not configured in .env.
+2026-08-11 21:04:46,716 [WARNING] Simulating local portfolio state update...
+2026-08-11 21:04:46,716 [INFO] ✓ portfolio.json state updated with new target holdings!
+2026-08-11 21:04:46,717 [INFO] === Daily Auto-Trader Completed Successfully ===
