@@ -1,6 +1,6 @@
 {
-  "total_equity": 99705.0,
-  "holdings_valuation": 99681.08,
+  "total_equity": 99753.23,
+  "holdings_valuation": 99729.31,
   "current_cash": 23.92,
   "target_cash_reserve": 0.0,
   "rebalancing_trades": [],
@@ -17,25 +17,25 @@
       "is_core": true
     },
     {
-      "ticker": "AU",
-      "company_name": "AngloGold Ashanti plc",
-      "price": 94.67,
-      "target_shares": 75,
-      "target_value": 7100.25,
-      "target_weight_pct": 7.1,
-      "conviction_score": 94,
-      "asymmetry_ratio": 4.24,
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences, Inc.",
+      "price": 151.53,
+      "target_shares": 37,
+      "target_value": 5606.61,
+      "target_weight_pct": 5.6,
+      "conviction_score": 95,
+      "asymmetry_ratio": 3.31,
       "is_core": false
     },
     {
-      "ticker": "NBIX",
-      "company_name": "Neurocrine Biosciences, Inc.",
-      "price": 151.84,
-      "target_shares": 35,
-      "target_value": 5314.4,
-      "target_weight_pct": 5.5,
+      "ticker": "AU",
+      "company_name": "AngloGold Ashanti plc",
+      "price": 94.92,
+      "target_shares": 74,
+      "target_value": 7024.08,
+      "target_weight_pct": 7.0,
       "conviction_score": 94,
-      "asymmetry_ratio": 3.24,
+      "asymmetry_ratio": 4.19,
       "is_core": false
     },
     {
@@ -52,23 +52,23 @@
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
-      "price": 57.67,
+      "price": 57.69,
       "target_shares": 97,
-      "target_value": 5593.99,
+      "target_value": 5595.93,
       "target_weight_pct": 5.6,
       "conviction_score": 91,
-      "asymmetry_ratio": 3.45,
+      "asymmetry_ratio": 3.46,
       "is_core": false
     },
     {
       "ticker": "KGC",
       "company_name": "Kinross Gold Corporation",
-      "price": 26.62,
-      "target_shares": 449,
-      "target_value": 11952.38,
+      "price": 26.76,
+      "target_shares": 447,
+      "target_value": 11961.72,
       "target_weight_pct": 12.0,
       "conviction_score": 90,
-      "asymmetry_ratio": 7.52,
+      "asymmetry_ratio": 7.5,
       "is_core": false
     }
   ]
