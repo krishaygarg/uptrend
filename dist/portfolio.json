@@ -1,15 +1,11 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 15.93,
+  "cash_balance": 23.92,
   "total_realized_pnl": 0.0,
   "holdings": {
     "QQQ": {
       "shares": 83,
       "avg_cost": 718.45
-    },
-    "CINF": {
-      "shares": 65,
-      "avg_cost": 173.21
     },
     "SQM": {
       "shares": 120,
@@ -30,6 +26,10 @@
     "ZTO": {
       "shares": 26,
       "avg_cost": 22.96
+    },
+    "KGC": {
+      "shares": 417,
+      "avg_cost": 26.98
     }
   },
   "history": [
@@ -46,6 +46,13 @@
       "cash": 15.93,
       "daily_pnl": 0.0,
       "total_pnl_pct": -0.24
+    },
+    {
+      "date": "2026-08-13",
+      "total_value": 99939.97,
+      "cash": 15.93,
+      "daily_pnl": 182.23,
+      "total_pnl_pct": -0.06
     }
   ],
   "trade_journal": [
@@ -118,6 +125,26 @@
       "total_usd": 596.96,
       "realized_pnl": 0.0,
       "reason": "High Asymmetry (5.16x) & Conviction (89/100) (Partial \u2014 limited by available buying power $613)"
+    },
+    {
+      "date": "2026-08-13 14:55:10",
+      "action": "SELL",
+      "ticker": "CINF",
+      "shares": 65,
+      "price": 173.21,
+      "total_usd": 11258.65,
+      "realized_pnl": 0.0,
+      "reason": "Reallocating capital: Conviction score (50/100) below target threshold."
+    },
+    {
+      "date": "2026-08-13 14:55:10",
+      "action": "BUY",
+      "ticker": "KGC",
+      "shares": 417,
+      "price": 26.98,
+      "total_usd": 11250.66,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (7.47x) & Conviction (90/100) (Partial \u2014 limited by available buying power $11,275)"
     }
   ]
 }
