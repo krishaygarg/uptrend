@@ -1,6 +1,6 @@
 {
-  "total_equity": 100722.22,
-  "holdings_valuation": 100698.3,
+  "total_equity": 100780.58,
+  "holdings_valuation": 100756.66,
   "current_cash": 23.92,
   "target_cash_reserve": 0.0,
   "rebalancing_trades": [],
@@ -19,34 +19,34 @@
     {
       "ticker": "DLO",
       "company_name": "DLocal Limited",
-      "price": 13.66,
-      "target_shares": 536,
-      "target_value": 7321.76,
+      "price": 13.69,
+      "target_shares": 534,
+      "target_value": 7310.46,
       "target_weight_pct": 7.3,
       "conviction_score": 95,
-      "asymmetry_ratio": 4.59,
+      "asymmetry_ratio": 4.55,
       "is_core": false
     },
     {
       "ticker": "SQM",
       "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 73.75,
-      "target_shares": 88,
-      "target_value": 6490.0,
-      "target_weight_pct": 6.5,
-      "conviction_score": 95,
-      "asymmetry_ratio": 4.09,
+      "price": 74.08,
+      "target_shares": 85,
+      "target_value": 6296.8,
+      "target_weight_pct": 6.3,
+      "conviction_score": 94,
+      "asymmetry_ratio": 3.96,
       "is_core": false
     },
     {
       "ticker": "CINF",
       "company_name": "Cincinnati Financial Corporation",
-      "price": 172.09,
-      "target_shares": 54,
-      "target_value": 9292.86,
-      "target_weight_pct": 9.3,
+      "price": 171.82,
+      "target_shares": 55,
+      "target_value": 9450.1,
+      "target_weight_pct": 9.5,
       "conviction_score": 93,
-      "asymmetry_ratio": 6.02,
+      "asymmetry_ratio": 6.08,
       "is_core": false
     },
     {
@@ -55,7 +55,7 @@
       "price": 59.41,
       "target_shares": 97,
       "target_value": 5762.77,
-      "target_weight_pct": 5.7,
+      "target_weight_pct": 5.8,
       "conviction_score": 92,
       "asymmetry_ratio": 3.73,
       "is_core": false
@@ -63,12 +63,12 @@
     {
       "ticker": "KGC",
       "company_name": "Kinross Gold Corporation",
-      "price": 27.18,
+      "price": 27.28,
       "target_shares": 414,
-      "target_value": 11252.52,
+      "target_value": 11293.92,
       "target_weight_pct": 11.2,
       "conviction_score": 90,
-      "asymmetry_ratio": 7.44,
+      "asymmetry_ratio": 7.42,
       "is_core": false
     }
   ]
