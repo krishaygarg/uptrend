@@ -1,6 +1,6 @@
 {
-  "total_equity": 104516.87,
-  "holdings_valuation": 104492.95,
+  "total_equity": 104503.72,
+  "holdings_valuation": 104479.8,
   "current_cash": 23.92,
   "target_cash_reserve": 0.0,
   "rebalancing_trades": [],
@@ -17,58 +17,58 @@
       "is_core": true
     },
     {
-      "ticker": "CINF",
-      "company_name": "Cincinnati Financial Corporation",
-      "price": 168.1,
-      "target_shares": 71,
-      "target_value": 11935.1,
-      "target_weight_pct": 11.5,
-      "conviction_score": 93,
-      "asymmetry_ratio": 7.22,
-      "is_core": false
-    },
-    {
       "ticker": "ZTO",
       "company_name": "ZTO Express (Cayman) Inc.",
-      "price": 21.51,
-      "target_shares": 583,
-      "target_value": 12540.33,
+      "price": 21.46,
+      "target_shares": 584,
+      "target_value": 12532.64,
       "target_weight_pct": 12.0,
       "conviction_score": 92,
-      "asymmetry_ratio": 8.37,
-      "is_core": false
-    },
-    {
-      "ticker": "STC",
-      "company_name": "Stewart Information Services Corporation",
-      "price": 69.42,
-      "target_shares": 92,
-      "target_value": 6386.64,
-      "target_weight_pct": 6.1,
-      "conviction_score": 89,
-      "asymmetry_ratio": 4.02,
-      "is_core": false
-    },
-    {
-      "ticker": "NBIX",
-      "company_name": "Neurocrine Biosciences, Inc.",
-      "price": 153.24,
-      "target_shares": 31,
-      "target_value": 4750.44,
-      "target_weight_pct": 4.6,
-      "conviction_score": 88,
-      "asymmetry_ratio": 3.07,
+      "asymmetry_ratio": 8.56,
       "is_core": false
     },
     {
       "ticker": "DLO",
       "company_name": "DLocal Limited",
-      "price": 14.86,
-      "target_shares": 317,
-      "target_value": 4710.62,
-      "target_weight_pct": 4.5,
+      "price": 14.84,
+      "target_shares": 341,
+      "target_value": 5060.44,
+      "target_weight_pct": 4.8,
       "conviction_score": 88,
-      "asymmetry_ratio": 2.99,
+      "asymmetry_ratio": 3.01,
+      "is_core": false
+    },
+    {
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences, Inc.",
+      "price": 154.28,
+      "target_shares": 31,
+      "target_value": 4782.68,
+      "target_weight_pct": 4.7,
+      "conviction_score": 87,
+      "asymmetry_ratio": 2.94,
+      "is_core": false
+    },
+    {
+      "ticker": "AA",
+      "company_name": "Alcoa Corporation",
+      "price": 51.74,
+      "target_shares": 197,
+      "target_value": 10192.78,
+      "target_weight_pct": 9.8,
+      "conviction_score": 86,
+      "asymmetry_ratio": 6.21,
+      "is_core": false
+    },
+    {
+      "ticker": "KNSL",
+      "company_name": "Kinsale Capital Group, Inc.",
+      "price": 386.31,
+      "target_shares": 17,
+      "target_value": 6567.27,
+      "target_weight_pct": 6.3,
+      "conviction_score": 85,
+      "asymmetry_ratio": 4.04,
       "is_core": false
     }
   ]
