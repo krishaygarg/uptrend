@@ -35,7 +35,7 @@
       "target_value": 12512.64,
       "target_weight_pct": 12.0,
       "conviction_score": 92,
-      "asymmetry_ratio": 9.29,
+      "asymmetry_ratio": 9.31,
       "is_core": false
     },
     {
@@ -55,7 +55,7 @@
       "price": 69.93,
       "target_shares": 84,
       "target_value": 5874.12,
-      "target_weight_pct": 5.7,
+      "target_weight_pct": 5.6,
       "conviction_score": 88,
       "asymmetry_ratio": 3.82,
       "is_core": false
