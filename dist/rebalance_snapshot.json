@@ -1,6 +1,6 @@
 {
-  "total_equity": 104016.18,
-  "holdings_valuation": 103992.26,
+  "total_equity": 103997.97,
+  "holdings_valuation": 103974.05,
   "current_cash": 23.92,
   "target_cash_reserve": 0.0,
   "rebalancing_trades": [],
@@ -19,10 +19,10 @@
     {
       "ticker": "SQM",
       "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 79.43,
+      "price": 79.38,
       "target_shares": 85,
-      "target_value": 6751.55,
-      "target_weight_pct": 6.6,
+      "target_value": 6747.3,
+      "target_weight_pct": 6.5,
       "conviction_score": 95,
       "asymmetry_ratio": 4.35,
       "is_core": false
@@ -30,45 +30,45 @@
     {
       "ticker": "CINF",
       "company_name": "Cincinnati Financial Corporation",
-      "price": 171.16,
+      "price": 171.48,
       "target_shares": 55,
-      "target_value": 9413.8,
-      "target_weight_pct": 9.2,
+      "target_value": 9431.4,
+      "target_weight_pct": 9.1,
       "conviction_score": 93,
-      "asymmetry_ratio": 6.23,
-      "is_core": false
-    },
-    {
-      "ticker": "ZTO",
-      "company_name": "ZTO Express (Cayman) Inc.",
-      "price": 21.34,
-      "target_shares": 584,
-      "target_value": 12462.56,
-      "target_weight_pct": 12.0,
-      "conviction_score": 92,
-      "asymmetry_ratio": 9.1,
-      "is_core": false
-    },
-    {
-      "ticker": "STC",
-      "company_name": "Stewart Information Services Corporation",
-      "price": 68.86,
-      "target_shares": 92,
-      "target_value": 6335.12,
-      "target_weight_pct": 6.1,
-      "conviction_score": 90,
-      "asymmetry_ratio": 4.28,
+      "asymmetry_ratio": 6.18,
       "is_core": false
     },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
-      "price": 58.91,
-      "target_shares": 85,
-      "target_value": 5007.35,
-      "target_weight_pct": 4.9,
+      "price": 59.06,
+      "target_shares": 97,
+      "target_value": 5728.82,
+      "target_weight_pct": 5.6,
+      "conviction_score": 93,
+      "asymmetry_ratio": 3.78,
+      "is_core": false
+    },
+    {
+      "ticker": "ZTO",
+      "company_name": "ZTO Express (Cayman) Inc.",
+      "price": 21.39,
+      "target_shares": 583,
+      "target_value": 12470.37,
+      "target_weight_pct": 12.0,
+      "conviction_score": 92,
+      "asymmetry_ratio": 8.91,
+      "is_core": false
+    },
+    {
+      "ticker": "STC",
+      "company_name": "Stewart Information Services Corporation",
+      "price": 69.19,
+      "target_shares": 88,
+      "target_value": 6088.72,
+      "target_weight_pct": 5.9,
       "conviction_score": 90,
-      "asymmetry_ratio": 3.4,
+      "asymmetry_ratio": 4.14,
       "is_core": false
     }
   ]
