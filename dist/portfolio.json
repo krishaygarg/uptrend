@@ -1,7 +1,7 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 23.92,
-  "total_realized_pnl": 0.0,
+  "cash_balance": 1.79,
+  "total_realized_pnl": 990.99,
   "holdings": {
     "QQQ": {
       "shares": 83,
@@ -24,11 +24,11 @@
       "avg_cost": 196.66
     },
     "ZTO": {
-      "shares": 26,
-      "avg_cost": 22.96
+      "shares": 363,
+      "avg_cost": 21.6
     },
     "KGC": {
-      "shares": 417,
+      "shares": 186,
       "avg_cost": 26.98
     }
   },
@@ -116,6 +116,20 @@
       "cash": 23.92,
       "daily_pnl": -418.75,
       "total_pnl_pct": 3.32
+    },
+    {
+      "date": "2026-08-27",
+      "total_value": 103695.85,
+      "cash": 23.92,
+      "daily_pnl": 371.23,
+      "total_pnl_pct": 3.7
+    },
+    {
+      "date": "2026-08-28",
+      "total_value": 102854.79,
+      "cash": 23.92,
+      "daily_pnl": -841.06,
+      "total_pnl_pct": 2.85
     }
   ],
   "trade_journal": [
@@ -208,6 +222,26 @@
       "total_usd": 11250.66,
       "realized_pnl": 0.0,
       "reason": "High Asymmetry (7.47x) & Conviction (90/100) (Partial \u2014 limited by available buying power $11,275)"
+    },
+    {
+      "date": "2026-08-28 23:23:13",
+      "action": "SELL",
+      "ticker": "KGC",
+      "shares": 231,
+      "price": 31.27,
+      "total_usd": 7223.37,
+      "realized_pnl": 990.99,
+      "reason": "Rebalancing target weight allocation."
+    },
+    {
+      "date": "2026-08-28 23:23:13",
+      "action": "BUY",
+      "ticker": "ZTO",
+      "shares": 337,
+      "price": 21.5,
+      "total_usd": 7245.5,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (8.59x) & Conviction (92/100) (Partial \u2014 limited by available buying power $7,247)"
     }
   ]
 }
