@@ -1,26 +1,9 @@
 {
-  "total_equity": 102854.79,
-  "holdings_valuation": 102830.87,
-  "current_cash": 23.92,
+  "total_equity": 102843.44,
+  "holdings_valuation": 102841.65,
+  "current_cash": 1.79,
   "target_cash_reserve": 0.0,
-  "rebalancing_trades": [
-    {
-      "action": "SELL",
-      "ticker": "KGC",
-      "shares": 231,
-      "price": 31.27,
-      "total_usd": 7223.37,
-      "reason": "Rebalancing target weight allocation."
-    },
-    {
-      "action": "BUY",
-      "ticker": "ZTO",
-      "shares": 337,
-      "price": 21.5,
-      "total_usd": 7245.5,
-      "reason": "High Asymmetry (8.59x) & Conviction (92/100) (Partial \u2014 limited by available buying power $7,247)"
-    }
-  ],
+  "rebalancing_trades": [],
   "target_portfolio": [
     {
       "ticker": "QQQ",
@@ -36,56 +19,56 @@
     {
       "ticker": "SQM",
       "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 78.63,
-      "target_shares": 93,
-      "target_value": 7312.59,
-      "target_weight_pct": 7.1,
+      "price": 78.5,
+      "target_shares": 87,
+      "target_value": 6829.5,
+      "target_weight_pct": 6.7,
       "conviction_score": 95,
-      "asymmetry_ratio": 4.7,
-      "is_core": false
-    },
-    {
-      "ticker": "CINF",
-      "company_name": "Cincinnati Financial Corporation",
-      "price": 171.97,
-      "target_shares": 53,
-      "target_value": 9114.41,
-      "target_weight_pct": 9.0,
-      "conviction_score": 93,
-      "asymmetry_ratio": 6.03,
+      "asymmetry_ratio": 4.73,
       "is_core": false
     },
     {
       "ticker": "KGC",
       "company_name": "Kinross Gold Corporation",
-      "price": 31.27,
-      "target_shares": 186,
-      "target_value": 5816.22,
+      "price": 30.8,
+      "target_shares": 190,
+      "target_value": 5852.0,
       "target_weight_pct": 5.7,
-      "conviction_score": 93,
-      "asymmetry_ratio": 3.82,
+      "conviction_score": 94,
+      "asymmetry_ratio": 4.09,
       "is_core": false
     },
     {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "price": 59.1,
-      "target_shares": 97,
-      "target_value": 5732.7,
-      "target_weight_pct": 5.6,
+      "ticker": "CINF",
+      "company_name": "Cincinnati Financial Corporation",
+      "price": 170.05,
+      "target_shares": 55,
+      "target_value": 9352.75,
+      "target_weight_pct": 9.1,
       "conviction_score": 93,
-      "asymmetry_ratio": 3.78,
+      "asymmetry_ratio": 6.58,
       "is_core": false
     },
     {
       "ticker": "ZTO",
       "company_name": "ZTO Express (Cayman) Inc.",
-      "price": 21.5,
-      "target_shares": 574,
-      "target_value": 12341.0,
+      "price": 21.23,
+      "target_shares": 581,
+      "target_value": 12334.63,
       "target_weight_pct": 12.0,
       "conviction_score": 92,
-      "asymmetry_ratio": 8.59,
+      "asymmetry_ratio": 9.86,
+      "is_core": false
+    },
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "price": 60.07,
+      "target_shares": 85,
+      "target_value": 5105.95,
+      "target_weight_pct": 5.0,
+      "conviction_score": 92,
+      "asymmetry_ratio": 3.66,
       "is_core": false
     }
   ]
