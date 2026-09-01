@@ -1,14 +1,14 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 1.79,
-  "total_realized_pnl": 990.99,
+  "cash_balance": 69.59,
+  "total_realized_pnl": 1471.41,
   "holdings": {
     "QQQ": {
       "shares": 83,
       "avg_cost": 718.45
     },
     "SQM": {
-      "shares": 120,
+      "shares": 69,
       "avg_cost": 72.22
     },
     "OXY": {
@@ -30,6 +30,10 @@
     "KGC": {
       "shares": 186,
       "avg_cost": 26.98
+    },
+    "CINF": {
+      "shares": 24,
+      "avg_cost": 170.66
     }
   },
   "history": [
@@ -133,10 +137,17 @@
     },
     {
       "date": "2026-08-31",
-      "total_value": 102843.44,
+      "total_value": 102883.13,
       "cash": 1.79,
       "daily_pnl": -11.35,
-      "total_pnl_pct": 2.84
+      "total_pnl_pct": 2.88
+    },
+    {
+      "date": "2026-09-01",
+      "total_value": 103272.37,
+      "cash": 1.79,
+      "daily_pnl": 389.24,
+      "total_pnl_pct": 3.27
     }
   ],
   "trade_journal": [
@@ -249,6 +260,26 @@
       "total_usd": 7245.5,
       "realized_pnl": 0.0,
       "reason": "High Asymmetry (8.59x) & Conviction (92/100) (Partial \u2014 limited by available buying power $7,247)"
+    },
+    {
+      "date": "2026-09-01 17:35:04",
+      "action": "SELL",
+      "ticker": "SQM",
+      "shares": 51,
+      "price": 81.64,
+      "total_usd": 4163.64,
+      "realized_pnl": 480.42,
+      "reason": "Rebalancing target weight allocation."
+    },
+    {
+      "date": "2026-09-01 17:35:04",
+      "action": "BUY",
+      "ticker": "CINF",
+      "shares": 24,
+      "price": 170.66,
+      "total_usd": 4095.84,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (6.4x) & Conviction (93/100) (Partial \u2014 limited by available buying power $4,165)"
     }
   ]
 }
