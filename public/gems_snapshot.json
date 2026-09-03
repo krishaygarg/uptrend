@@ -1,5 +1,5 @@
 {
-  "count": 418,
+  "count": 419,
   "recommendations": [
     {
       "ticker": "SQM",
@@ -659,8 +659,8 @@
       "sector": "Consumer Cyclical",
       "industry": "Restaurants",
       "current_price": 43.69,
-      "fair_value": 75.98,
-      "dcf_value": 60.79,
+      "fair_value": 75.99,
+      "dcf_value": 60.81,
       "graham_value": 105.11,
       "analyst_target": 62.05,
       "margin_of_safety_pct": 42.5,
@@ -679,7 +679,7 @@
       "roe_pct": 16.8,
       "rsi_14": 36.46,
       "beta": 0.08,
-      "market_cap": 14874189824,
+      "market_cap": 14870504448,
       "conviction_score": 77
     },
     {
@@ -877,16 +877,16 @@
       "sector": "Healthcare",
       "industry": "Medical Care Facilities",
       "current_price": 409.2,
-      "fair_value": 583.75,
-      "dcf_value": 354.17,
+      "fair_value": 580.91,
+      "dcf_value": 345.64,
       "graham_value": 945.61,
       "analyst_target": 451.48,
-      "margin_of_safety_pct": 29.9,
-      "upside_potential_pct": 42.7,
+      "margin_of_safety_pct": 29.6,
+      "upside_potential_pct": 42.0,
       "support_floor": 383.61,
       "downside_risk_pct": 8.872,
-      "asymmetry_ratio": 4.81,
-      "fcf_yield_pct": 4.22,
+      "asymmetry_ratio": 4.73,
+      "fcf_yield_pct": 4.12,
       "altman_z_score": null,
       "piotroski_f_score": 8,
       "structural_flags": [],
@@ -895,7 +895,7 @@
       "roe_pct": 0.0,
       "rsi_14": 49.15,
       "beta": 1.11,
-      "market_cap": 88592416768,
+      "market_cap": 90776854528,
       "conviction_score": 74
     },
     {
