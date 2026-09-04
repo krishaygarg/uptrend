@@ -1,6 +1,6 @@
 {
-  "total_equity": 103041.48,
-  "holdings_valuation": 102971.89,
+  "total_equity": 103043.65,
+  "holdings_valuation": 102974.06,
   "current_cash": 69.59,
   "target_cash_reserve": 0.0,
   "rebalancing_trades": [],
@@ -66,9 +66,9 @@
       "price": 60.04,
       "target_shares": 83,
       "target_value": 4983.32,
-      "target_weight_pct": 4.8,
+      "target_weight_pct": 4.9,
       "conviction_score": 92,
-      "asymmetry_ratio": 3.66,
+      "asymmetry_ratio": 3.67,
       "is_core": false
     }
   ]
