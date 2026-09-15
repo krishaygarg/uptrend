@@ -1,6 +1,6 @@
 {
-  "total_equity": 102340.8,
-  "holdings_valuation": 102271.21,
+  "total_equity": 102320.1,
+  "holdings_valuation": 102250.51,
   "current_cash": 69.59,
   "target_cash_reserve": 0.0,
   "rebalancing_trades": [],
@@ -19,56 +19,56 @@
     {
       "ticker": "CINF",
       "company_name": "Cincinnati Financial Corporation",
-      "price": 171.11,
+      "price": 171.67,
       "target_shares": 54,
-      "target_value": 9239.94,
+      "target_value": 9270.18,
       "target_weight_pct": 9.1,
       "conviction_score": 93,
-      "asymmetry_ratio": 6.28,
+      "asymmetry_ratio": 6.13,
       "is_core": false
     },
     {
       "ticker": "ZTO",
       "company_name": "ZTO Express (Cayman) Inc.",
-      "price": 20.55,
-      "target_shares": 597,
-      "target_value": 12268.35,
+      "price": 20.42,
+      "target_shares": 601,
+      "target_value": 12272.42,
       "target_weight_pct": 12.0,
       "conviction_score": 92,
       "asymmetry_ratio": 10.0,
       "is_core": false
     },
     {
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences, Inc.",
+      "price": 150.02,
+      "target_shares": 37,
+      "target_value": 5550.74,
+      "target_weight_pct": 5.4,
+      "conviction_score": 92,
+      "asymmetry_ratio": 3.69,
+      "is_core": false
+    },
+    {
       "ticker": "AU",
       "company_name": "AngloGold Ashanti plc",
-      "price": 100.12,
+      "price": 100.71,
       "target_shares": 56,
-      "target_value": 5606.72,
+      "target_value": 5639.76,
       "target_weight_pct": 5.5,
-      "conviction_score": 92,
-      "asymmetry_ratio": 3.88,
-      "is_core": false
-    },
-    {
-      "ticker": "BLK",
-      "company_name": "BlackRock, Inc.",
-      "price": 1054.98,
-      "target_shares": 5,
-      "target_value": 5274.9,
-      "target_weight_pct": 5.8,
-      "conviction_score": 91,
-      "asymmetry_ratio": 4.07,
-      "is_core": false
-    },
-    {
-      "ticker": "HMY",
-      "company_name": "Harmony Gold Mining Company Limited",
-      "price": 19.43,
-      "target_shares": 282,
-      "target_value": 5479.26,
-      "target_weight_pct": 5.4,
       "conviction_score": 91,
       "asymmetry_ratio": 3.79,
+      "is_core": false
+    },
+    {
+      "ticker": "DLO",
+      "company_name": "DLocal Limited",
+      "price": 14.45,
+      "target_shares": 369,
+      "target_value": 5332.05,
+      "target_weight_pct": 5.2,
+      "conviction_score": 91,
+      "asymmetry_ratio": 3.58,
       "is_core": false
     }
   ]
