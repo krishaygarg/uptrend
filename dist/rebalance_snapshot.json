@@ -17,13 +17,46 @@
       "is_core": true
     },
     {
-      "ticker": "SQM",
-      "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 65.16,
-      "target_shares": 183,
-      "target_value": 11924.28,
-      "target_weight_pct": 12.0,
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences, Inc.",
+      "price": 140.44,
+      "target_shares": 36,
+      "target_value": 5055.84,
+      "target_weight_pct": 5.2,
       "conviction_score": 95,
+      "asymmetry_ratio": 5.38,
+      "is_core": false
+    },
+    {
+      "ticker": "CINF",
+      "company_name": "Cincinnati Financial Corporation",
+      "price": 161.92,
+      "target_shares": 58,
+      "target_value": 9391.36,
+      "target_weight_pct": 9.5,
+      "conviction_score": 93,
+      "asymmetry_ratio": 10.0,
+      "is_core": false
+    },
+    {
+      "ticker": "ZTO",
+      "company_name": "ZTO Express (Cayman) Inc.",
+      "price": 19.67,
+      "target_shares": 475,
+      "target_value": 9343.25,
+      "target_weight_pct": 9.4,
+      "conviction_score": 92,
+      "asymmetry_ratio": 10.0,
+      "is_core": false
+    },
+    {
+      "ticker": "STC",
+      "company_name": "Stewart Information Services Corporation",
+      "price": 57.54,
+      "target_shares": 158,
+      "target_value": 9091.32,
+      "target_weight_pct": 9.2,
+      "conviction_score": 90,
       "asymmetry_ratio": 10.0,
       "is_core": false
     },
@@ -31,44 +64,11 @@
       "ticker": "KGC",
       "company_name": "Kinross Gold Corporation",
       "price": 24.11,
-      "target_shares": 366,
-      "target_value": 8824.26,
-      "target_weight_pct": 8.9,
-      "conviction_score": 95,
+      "target_shares": 279,
+      "target_value": 6726.69,
+      "target_weight_pct": 6.8,
+      "conviction_score": 90,
       "asymmetry_ratio": 7.37,
-      "is_core": false
-    },
-    {
-      "ticker": "NBIX",
-      "company_name": "Neurocrine Biosciences, Inc.",
-      "price": 140.44,
-      "target_shares": 55,
-      "target_value": 7724.2,
-      "target_weight_pct": 7.9,
-      "conviction_score": 95,
-      "asymmetry_ratio": 6.54,
-      "is_core": false
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "price": 56.1,
-      "target_shares": 100,
-      "target_value": 5610.0,
-      "target_weight_pct": 5.7,
-      "conviction_score": 95,
-      "asymmetry_ratio": 4.73,
-      "is_core": false
-    },
-    {
-      "ticker": "DLO",
-      "company_name": "DLocal Limited",
-      "price": 13.82,
-      "target_shares": 402,
-      "target_value": 5555.64,
-      "target_weight_pct": 5.6,
-      "conviction_score": 95,
-      "asymmetry_ratio": 4.65,
       "is_core": false
     }
   ]
