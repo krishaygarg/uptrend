@@ -1,6 +1,6 @@
 {
-  "total_equity": 99779.93,
-  "holdings_valuation": 99710.34,
+  "total_equity": 99957.22,
+  "holdings_valuation": 99887.63,
   "current_cash": 69.59,
   "target_cash_reserve": 0.0,
   "rebalancing_trades": [],
@@ -19,56 +19,56 @@
     {
       "ticker": "INCY",
       "company_name": "Incyte Corporation",
-      "price": 112.79,
-      "target_shares": 42,
-      "target_value": 4737.18,
-      "target_weight_pct": 4.8,
-      "conviction_score": 97,
-      "asymmetry_ratio": 3.74,
-      "is_core": false
-    },
-    {
-      "ticker": "AEM",
-      "company_name": "Agnico Eagle Mines Limited",
-      "price": 189.02,
-      "target_shares": 33,
-      "target_value": 6237.66,
-      "target_weight_pct": 6.4,
-      "conviction_score": 95,
-      "asymmetry_ratio": 5.05,
-      "is_core": false
-    },
-    {
-      "ticker": "OXY",
-      "company_name": "Occidental Petroleum Corporation",
-      "price": 60.11,
-      "target_shares": 84,
-      "target_value": 5049.24,
-      "target_weight_pct": 5.1,
-      "conviction_score": 94,
+      "price": 111.36,
+      "target_shares": 44,
+      "target_value": 4899.84,
+      "target_weight_pct": 4.9,
+      "conviction_score": 99,
       "asymmetry_ratio": 4.04,
-      "is_core": false
-    },
-    {
-      "ticker": "STC",
-      "company_name": "Stewart Information Services Corporation",
-      "price": 50.7,
-      "target_shares": 236,
-      "target_value": 11965.2,
-      "target_weight_pct": 12.0,
-      "conviction_score": 90,
-      "asymmetry_ratio": 10.0,
       "is_core": false
     },
     {
       "ticker": "SQM",
       "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 63.91,
-      "target_shares": 182,
-      "target_value": 11631.62,
-      "target_weight_pct": 11.7,
+      "price": 62.47,
+      "target_shares": 183,
+      "target_value": 11432.01,
+      "target_weight_pct": 11.5,
+      "conviction_score": 95,
+      "asymmetry_ratio": 9.81,
+      "is_core": false
+    },
+    {
+      "ticker": "KGC",
+      "company_name": "Kinross Gold Corporation",
+      "price": 23.55,
+      "target_shares": 352,
+      "target_value": 8289.6,
+      "target_weight_pct": 8.3,
+      "conviction_score": 95,
+      "asymmetry_ratio": 7.1,
+      "is_core": false
+    },
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "price": 61.13,
+      "target_shares": 69,
+      "target_value": 4217.97,
+      "target_weight_pct": 4.2,
+      "conviction_score": 92,
+      "asymmetry_ratio": 3.73,
+      "is_core": false
+    },
+    {
+      "ticker": "STC",
+      "company_name": "Stewart Information Services Corporation",
+      "price": 50.09,
+      "target_shares": 221,
+      "target_value": 11069.89,
+      "target_weight_pct": 11.1,
       "conviction_score": 90,
-      "asymmetry_ratio": 9.76,
+      "asymmetry_ratio": 10.0,
       "is_core": false
     }
   ]
