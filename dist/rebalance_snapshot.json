@@ -1,9 +1,26 @@
 {
-  "total_equity": 100055.07,
-  "holdings_valuation": 99985.48,
+  "total_equity": 99872.03,
+  "holdings_valuation": 99802.44,
   "current_cash": 69.59,
   "target_cash_reserve": 0.0,
-  "rebalancing_trades": [],
+  "rebalancing_trades": [
+    {
+      "action": "SELL",
+      "ticker": "KGC",
+      "shares": 186,
+      "price": 21.96,
+      "total_usd": 4084.56,
+      "reason": "\u26d4 TRAILING STOP-LOSS (-18.6% drawdown). Protecting capital."
+    },
+    {
+      "action": "BUY",
+      "ticker": "NBIX",
+      "shares": 30,
+      "price": 135.18,
+      "total_usd": 4055.4,
+      "reason": "High Asymmetry (10.0x) & Conviction (95/100) (Partial \u2014 limited by available buying power $4,154)"
+    }
+  ],
   "target_portfolio": [
     {
       "ticker": "QQQ",
@@ -17,58 +34,58 @@
       "is_core": true
     },
     {
-      "ticker": "KGC",
-      "company_name": "Kinross Gold Corporation",
-      "price": 23.44,
-      "target_shares": 371,
-      "target_value": 8696.24,
-      "target_weight_pct": 8.7,
+      "ticker": "NBIX",
+      "company_name": "Neurocrine Biosciences, Inc.",
+      "price": 135.18,
+      "target_shares": 75,
+      "target_value": 10138.5,
+      "target_weight_pct": 10.2,
       "conviction_score": 95,
-      "asymmetry_ratio": 7.11,
-      "is_core": false
-    },
-    {
-      "ticker": "AA",
-      "company_name": "Alcoa Corporation",
-      "price": 41.49,
-      "target_shares": 162,
-      "target_value": 6721.38,
-      "target_weight_pct": 6.7,
-      "conviction_score": 91,
-      "asymmetry_ratio": 5.75,
-      "is_core": false
-    },
-    {
-      "ticker": "STC",
-      "company_name": "Stewart Information Services Corporation",
-      "price": 50.92,
-      "target_shares": 227,
-      "target_value": 11558.84,
-      "target_weight_pct": 11.6,
-      "conviction_score": 90,
       "asymmetry_ratio": 10.0,
       "is_core": false
     },
     {
-      "ticker": "NBIX",
-      "company_name": "Neurocrine Biosciences, Inc.",
-      "price": 135.13,
-      "target_shares": 68,
-      "target_value": 9188.84,
-      "target_weight_pct": 9.2,
-      "conviction_score": 90,
-      "asymmetry_ratio": 7.93,
+      "ticker": "SQM",
+      "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
+      "price": 61.63,
+      "target_shares": 163,
+      "target_value": 10045.69,
+      "target_weight_pct": 10.1,
+      "conviction_score": 95,
+      "asymmetry_ratio": 9.88,
+      "is_core": false
+    },
+    {
+      "ticker": "KGC",
+      "company_name": "Kinross Gold Corporation",
+      "price": 21.96,
+      "target_shares": 343,
+      "target_value": 7532.28,
+      "target_weight_pct": 7.6,
+      "conviction_score": 95,
+      "asymmetry_ratio": 7.38,
       "is_core": false
     },
     {
       "ticker": "INCY",
       "company_name": "Incyte Corporation",
-      "price": 108.62,
-      "target_shares": 34,
-      "target_value": 3693.08,
-      "target_weight_pct": 3.8,
-      "conviction_score": 90,
-      "asymmetry_ratio": 3.27,
+      "price": 111.69,
+      "target_shares": 36,
+      "target_value": 4020.84,
+      "target_weight_pct": 4.0,
+      "conviction_score": 94,
+      "asymmetry_ratio": 3.99,
+      "is_core": false
+    },
+    {
+      "ticker": "CINF",
+      "company_name": "Cincinnati Financial Corporation",
+      "price": 166.2,
+      "target_shares": 48,
+      "target_value": 7977.6,
+      "target_weight_pct": 8.0,
+      "conviction_score": 93,
+      "asymmetry_ratio": 8.03,
       "is_core": false
     }
   ]
