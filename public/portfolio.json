@@ -372,6 +372,13 @@
       "cash": 98.75,
       "daily_pnl": -188.19,
       "total_pnl_pct": -0.37
+    },
+    {
+      "date": "2026-10-16",
+      "total_value": 100073.9,
+      "cash": 98.75,
+      "daily_pnl": 440.88,
+      "total_pnl_pct": 0.07
     }
   ],
   "trade_journal": [
