@@ -1,15 +1,11 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 98.75,
-  "total_realized_pnl": 537.69,
+  "cash_balance": 5.09,
+  "total_realized_pnl": -397.95,
   "holdings": {
     "QQQ": {
       "shares": 83,
       "avg_cost": 718.45
-    },
-    "SQM": {
-      "shares": 69,
-      "avg_cost": 72.22
     },
     "OXY": {
       "shares": 128,
@@ -34,6 +30,10 @@
     "NBIX": {
       "shares": 30,
       "avg_cost": 135.18
+    },
+    "KGC": {
+      "shares": 174,
+      "avg_cost": 23.8
     }
   },
   "history": [
@@ -393,6 +393,13 @@
       "cash": 98.75,
       "daily_pnl": 402.24,
       "total_pnl_pct": 0.6
+    },
+    {
+      "date": "2026-10-21",
+      "total_value": 100254.02,
+      "cash": 98.75,
+      "daily_pnl": -346.95,
+      "total_pnl_pct": 0.25
     }
   ],
   "trade_journal": [
@@ -545,6 +552,26 @@
       "total_usd": 4055.4,
       "realized_pnl": 0.0,
       "reason": "High Asymmetry (10.0x) & Conviction (95/100) (Partial \u2014 limited by available buying power $4,154)"
+    },
+    {
+      "date": "2026-10-21 18:21:50",
+      "action": "SELL",
+      "ticker": "SQM",
+      "shares": 69,
+      "price": 58.66,
+      "total_usd": 4047.54,
+      "realized_pnl": -935.64,
+      "reason": "\u26d4 TRAILING STOP-LOSS (-18.8% drawdown). Protecting capital."
+    },
+    {
+      "date": "2026-10-21 18:21:50",
+      "action": "BUY",
+      "ticker": "KGC",
+      "shares": 174,
+      "price": 23.8,
+      "total_usd": 4141.2,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (6.86x) & Conviction (90/100) (Partial \u2014 limited by available buying power $4,146)"
     }
   ]
 }

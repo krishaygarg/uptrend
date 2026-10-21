@@ -1,16 +1,33 @@
 {
-  "total_equity": 100600.97,
-  "holdings_valuation": 100502.22,
+  "total_equity": 100254.02,
+  "holdings_valuation": 100155.27,
   "current_cash": 98.75,
   "target_cash_reserve": 0.0,
-  "rebalancing_trades": [],
+  "rebalancing_trades": [
+    {
+      "action": "SELL",
+      "ticker": "SQM",
+      "shares": 69,
+      "price": 58.66,
+      "total_usd": 4047.54,
+      "reason": "\u26d4 TRAILING STOP-LOSS (-18.8% drawdown). Protecting capital."
+    },
+    {
+      "action": "BUY",
+      "ticker": "KGC",
+      "shares": 174,
+      "price": 23.8,
+      "total_usd": 4141.2,
+      "reason": "High Asymmetry (6.86x) & Conviction (90/100) (Partial \u2014 limited by available buying power $4,146)"
+    }
+  ],
   "target_portfolio": [
     {
       "ticker": "QQQ",
       "company_name": "Invesco QQQ Trust (Core Anchor)",
       "price": 718.45,
-      "target_shares": 84,
-      "target_value": 60349.8,
+      "target_shares": 83,
+      "target_value": 59631.35,
       "target_weight_pct": 60.0,
       "conviction_score": 95,
       "asymmetry_ratio": 1.0,
@@ -19,56 +36,56 @@
     {
       "ticker": "SQM",
       "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 60.05,
-      "target_shares": 201,
-      "target_value": 12070.05,
+      "price": 58.66,
+      "target_shares": 205,
+      "target_value": 12025.3,
       "target_weight_pct": 12.0,
       "conviction_score": 95,
       "asymmetry_ratio": 10.0,
       "is_core": false
     },
     {
-      "ticker": "CINF",
-      "company_name": "Cincinnati Financial Corporation",
-      "price": 172.07,
-      "target_shares": 44,
-      "target_value": 7571.08,
-      "target_weight_pct": 7.6,
-      "conviction_score": 93,
-      "asymmetry_ratio": 5.98,
+      "ticker": "INCY",
+      "company_name": "Incyte Corporation",
+      "price": 113.69,
+      "target_shares": 43,
+      "target_value": 4888.67,
+      "target_weight_pct": 4.9,
+      "conviction_score": 92,
+      "asymmetry_ratio": 3.65,
+      "is_core": false
+    },
+    {
+      "ticker": "OXY",
+      "company_name": "Occidental Petroleum Corporation",
+      "price": 62.65,
+      "target_shares": 74,
+      "target_value": 4636.1,
+      "target_weight_pct": 4.7,
+      "conviction_score": 91,
+      "asymmetry_ratio": 3.53,
       "is_core": false
     },
     {
       "ticker": "KGC",
       "company_name": "Kinross Gold Corporation",
-      "price": 23.64,
-      "target_shares": 361,
-      "target_value": 8534.04,
-      "target_weight_pct": 8.5,
+      "price": 23.8,
+      "target_shares": 378,
+      "target_value": 8996.4,
+      "target_weight_pct": 9.0,
       "conviction_score": 90,
-      "asymmetry_ratio": 6.88,
+      "asymmetry_ratio": 6.86,
       "is_core": false
     },
     {
       "ticker": "NBIX",
       "company_name": "Neurocrine Biosciences, Inc.",
-      "price": 142.0,
-      "target_shares": 49,
-      "target_value": 6958.0,
-      "target_weight_pct": 6.9,
+      "price": 141.54,
+      "target_shares": 54,
+      "target_value": 7643.16,
+      "target_weight_pct": 7.6,
       "conviction_score": 90,
-      "asymmetry_ratio": 5.62,
-      "is_core": false
-    },
-    {
-      "ticker": "INCY",
-      "company_name": "Incyte Corporation",
-      "price": 116.61,
-      "target_shares": 33,
-      "target_value": 3848.13,
-      "target_weight_pct": 3.9,
-      "conviction_score": 89,
-      "asymmetry_ratio": 3.19,
+      "asymmetry_ratio": 5.82,
       "is_core": false
     }
   ]
