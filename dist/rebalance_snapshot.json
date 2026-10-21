@@ -1,26 +1,9 @@
 {
-  "total_equity": 100254.02,
-  "holdings_valuation": 100155.27,
-  "current_cash": 98.75,
+  "total_equity": 100241.57,
+  "holdings_valuation": 100236.48,
+  "current_cash": 5.09,
   "target_cash_reserve": 0.0,
-  "rebalancing_trades": [
-    {
-      "action": "SELL",
-      "ticker": "SQM",
-      "shares": 69,
-      "price": 58.66,
-      "total_usd": 4047.54,
-      "reason": "\u26d4 TRAILING STOP-LOSS (-18.8% drawdown). Protecting capital."
-    },
-    {
-      "action": "BUY",
-      "ticker": "KGC",
-      "shares": 174,
-      "price": 23.8,
-      "total_usd": 4141.2,
-      "reason": "High Asymmetry (6.86x) & Conviction (90/100) (Partial \u2014 limited by available buying power $4,146)"
-    }
-  ],
+  "rebalancing_trades": [],
   "target_portfolio": [
     {
       "ticker": "QQQ",
@@ -36,9 +19,9 @@
     {
       "ticker": "SQM",
       "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 58.66,
+      "price": 58.44,
       "target_shares": 205,
-      "target_value": 12025.3,
+      "target_value": 11980.2,
       "target_weight_pct": 12.0,
       "conviction_score": 95,
       "asymmetry_ratio": 10.0,
@@ -47,45 +30,45 @@
     {
       "ticker": "INCY",
       "company_name": "Incyte Corporation",
-      "price": 113.69,
+      "price": 113.44,
       "target_shares": 43,
-      "target_value": 4888.67,
+      "target_value": 4877.92,
       "target_weight_pct": 4.9,
       "conviction_score": 92,
-      "asymmetry_ratio": 3.65,
+      "asymmetry_ratio": 3.7,
       "is_core": false
     },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
-      "price": 62.65,
+      "price": 62.7,
       "target_shares": 74,
-      "target_value": 4636.1,
-      "target_weight_pct": 4.7,
+      "target_value": 4639.8,
+      "target_weight_pct": 4.6,
       "conviction_score": 91,
-      "asymmetry_ratio": 3.53,
+      "asymmetry_ratio": 3.52,
       "is_core": false
     },
     {
       "ticker": "KGC",
       "company_name": "Kinross Gold Corporation",
-      "price": 23.8,
-      "target_shares": 378,
-      "target_value": 8996.4,
-      "target_weight_pct": 9.0,
+      "price": 23.82,
+      "target_shares": 375,
+      "target_value": 8932.5,
+      "target_weight_pct": 8.9,
       "conviction_score": 90,
-      "asymmetry_ratio": 6.86,
+      "asymmetry_ratio": 6.85,
       "is_core": false
     },
     {
       "ticker": "NBIX",
       "company_name": "Neurocrine Biosciences, Inc.",
-      "price": 141.54,
+      "price": 141.31,
       "target_shares": 54,
-      "target_value": 7643.16,
-      "target_weight_pct": 7.6,
+      "target_value": 7630.74,
+      "target_weight_pct": 7.8,
       "conviction_score": 90,
-      "asymmetry_ratio": 5.82,
+      "asymmetry_ratio": 5.95,
       "is_core": false
     }
   ]
