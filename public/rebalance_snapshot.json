@@ -1,9 +1,26 @@
 {
-  "total_equity": 100241.57,
-  "holdings_valuation": 100236.48,
+  "total_equity": 100342.7,
+  "holdings_valuation": 100337.61,
   "current_cash": 5.09,
   "target_cash_reserve": 0.0,
-  "rebalancing_trades": [],
+  "rebalancing_trades": [
+    {
+      "action": "SELL",
+      "ticker": "OXY",
+      "shares": 67,
+      "price": 62.44,
+      "total_usd": 4183.48,
+      "reason": "Rebalancing target weight allocation."
+    },
+    {
+      "action": "BUY",
+      "ticker": "SQM",
+      "shares": 74,
+      "price": 56.42,
+      "total_usd": 4175.08,
+      "reason": "High Asymmetry (10.0x) & Conviction (95/100) (Partial \u2014 limited by available buying power $4,189)"
+    }
+  ],
   "target_portfolio": [
     {
       "ticker": "QQQ",
@@ -19,56 +36,56 @@
     {
       "ticker": "SQM",
       "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 58.44,
-      "target_shares": 205,
-      "target_value": 11980.2,
-      "target_weight_pct": 12.0,
+      "price": 56.42,
+      "target_shares": 201,
+      "target_value": 11340.42,
+      "target_weight_pct": 11.3,
       "conviction_score": 95,
       "asymmetry_ratio": 10.0,
       "is_core": false
     },
     {
-      "ticker": "INCY",
-      "company_name": "Incyte Corporation",
-      "price": 113.44,
-      "target_shares": 43,
-      "target_value": 4877.92,
-      "target_weight_pct": 4.9,
-      "conviction_score": 92,
-      "asymmetry_ratio": 3.7,
+      "ticker": "AU",
+      "company_name": "AngloGold Ashanti plc",
+      "price": 85.32,
+      "target_shares": 131,
+      "target_value": 11176.92,
+      "target_weight_pct": 11.2,
+      "conviction_score": 94,
+      "asymmetry_ratio": 10.0,
       "is_core": false
     },
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
-      "price": 62.7,
-      "target_shares": 74,
-      "target_value": 4639.8,
-      "target_weight_pct": 4.6,
+      "price": 62.44,
+      "target_shares": 61,
+      "target_value": 3808.84,
+      "target_weight_pct": 3.9,
       "conviction_score": 91,
-      "asymmetry_ratio": 3.52,
+      "asymmetry_ratio": 3.55,
       "is_core": false
     },
     {
-      "ticker": "KGC",
-      "company_name": "Kinross Gold Corporation",
-      "price": 23.82,
-      "target_shares": 375,
-      "target_value": 8932.5,
-      "target_weight_pct": 8.9,
-      "conviction_score": 90,
-      "asymmetry_ratio": 6.85,
+      "ticker": "MU",
+      "company_name": "Micron Technology, Inc.",
+      "price": 859.65,
+      "target_shares": 3,
+      "target_value": 2578.95,
+      "target_weight_pct": 2.9,
+      "conviction_score": 91,
+      "asymmetry_ratio": 2.64,
       "is_core": false
     },
     {
-      "ticker": "NBIX",
-      "company_name": "Neurocrine Biosciences, Inc.",
-      "price": 141.31,
-      "target_shares": 54,
-      "target_value": 7630.74,
-      "target_weight_pct": 7.8,
+      "ticker": "STC",
+      "company_name": "Stewart Information Services Corporation",
+      "price": 50.08,
+      "target_shares": 215,
+      "target_value": 10767.2,
+      "target_weight_pct": 10.7,
       "conviction_score": 90,
-      "asymmetry_ratio": 5.95,
+      "asymmetry_ratio": 10.0,
       "is_core": false
     }
   ]

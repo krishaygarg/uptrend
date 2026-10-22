@@ -1,14 +1,14 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 5.09,
-  "total_realized_pnl": -397.95,
+  "cash_balance": 13.49,
+  "total_realized_pnl": -171.49,
   "holdings": {
     "QQQ": {
       "shares": 83,
       "avg_cost": 718.45
     },
     "OXY": {
-      "shares": 128,
+      "shares": 61,
       "avg_cost": 59.06
     },
     "INCY": {
@@ -34,6 +34,10 @@
     "KGC": {
       "shares": 174,
       "avg_cost": 23.8
+    },
+    "SQM": {
+      "shares": 74,
+      "avg_cost": 56.42
     }
   },
   "history": [
@@ -396,10 +400,17 @@
     },
     {
       "date": "2026-10-21",
-      "total_value": 100254.02,
-      "cash": 98.75,
+      "total_value": 100241.57,
+      "cash": 5.09,
       "daily_pnl": -346.95,
-      "total_pnl_pct": 0.25
+      "total_pnl_pct": 0.24
+    },
+    {
+      "date": "2026-10-22",
+      "total_value": 100342.7,
+      "cash": 5.09,
+      "daily_pnl": 101.13,
+      "total_pnl_pct": 0.34
     }
   ],
   "trade_journal": [
@@ -572,6 +583,26 @@
       "total_usd": 4141.2,
       "realized_pnl": 0.0,
       "reason": "High Asymmetry (6.86x) & Conviction (90/100) (Partial \u2014 limited by available buying power $4,146)"
+    },
+    {
+      "date": "2026-10-22 18:16:27",
+      "action": "SELL",
+      "ticker": "OXY",
+      "shares": 67,
+      "price": 62.44,
+      "total_usd": 4183.48,
+      "realized_pnl": 226.46,
+      "reason": "Rebalancing target weight allocation."
+    },
+    {
+      "date": "2026-10-22 18:16:27",
+      "action": "BUY",
+      "ticker": "SQM",
+      "shares": 74,
+      "price": 56.42,
+      "total_usd": 4175.08,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (10.0x) & Conviction (95/100) (Partial \u2014 limited by available buying power $4,189)"
     }
   ]
 }
