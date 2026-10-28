@@ -1,7 +1,7 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 13.49,
-  "total_realized_pnl": -171.49,
+  "cash_balance": 31.48,
+  "total_realized_pnl": 43.79,
   "holdings": {
     "QQQ": {
       "shares": 83,
@@ -23,10 +23,6 @@
       "shares": 363,
       "avg_cost": 21.6
     },
-    "CINF": {
-      "shares": 24,
-      "avg_cost": 170.66
-    },
     "NBIX": {
       "shares": 30,
       "avg_cost": 135.18
@@ -36,8 +32,8 @@
       "avg_cost": 23.8
     },
     "SQM": {
-      "shares": 74,
-      "avg_cost": 56.42
+      "shares": 147,
+      "avg_cost": 57.61
     }
   },
   "history": [
@@ -428,10 +424,17 @@
     },
     {
       "date": "2026-10-27",
-      "total_value": 100942.15,
+      "total_value": 100969.29,
       "cash": 13.49,
       "daily_pnl": 420.26,
-      "total_pnl_pct": 0.94
+      "total_pnl_pct": 0.97
+    },
+    {
+      "date": "2026-10-28",
+      "total_value": 100685.64,
+      "cash": 13.49,
+      "daily_pnl": -283.65,
+      "total_pnl_pct": 0.69
     }
   ],
   "trade_journal": [
@@ -624,6 +627,26 @@
       "total_usd": 4175.08,
       "realized_pnl": 0.0,
       "reason": "High Asymmetry (10.0x) & Conviction (95/100) (Partial \u2014 limited by available buying power $4,189)"
+    },
+    {
+      "date": "2026-10-28 19:19:31",
+      "action": "SELL",
+      "ticker": "CINF",
+      "shares": 24,
+      "price": 179.63,
+      "total_usd": 4311.12,
+      "realized_pnl": 215.28,
+      "reason": "Reallocating capital: Conviction score (5/100) below target threshold."
+    },
+    {
+      "date": "2026-10-28 19:19:31",
+      "action": "BUY",
+      "ticker": "SQM",
+      "shares": 73,
+      "price": 58.81,
+      "total_usd": 4293.13,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (10.0x) & Conviction (90/100) (Partial \u2014 limited by available buying power $4,325)"
     }
   ]
 }
