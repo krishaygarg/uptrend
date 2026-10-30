@@ -1,7 +1,7 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 31.48,
-  "total_realized_pnl": 43.79,
+  "cash_balance": 14.02,
+  "total_realized_pnl": -664.39,
   "holdings": {
     "QQQ": {
       "shares": 83,
@@ -27,13 +27,13 @@
       "shares": 30,
       "avg_cost": 135.18
     },
-    "KGC": {
-      "shares": 174,
-      "avg_cost": 23.8
-    },
     "SQM": {
       "shares": 147,
       "avg_cost": 57.61
+    },
+    "AU": {
+      "shares": 44,
+      "avg_cost": 78.42
     }
   },
   "history": [
@@ -438,10 +438,17 @@
     },
     {
       "date": "2026-10-29",
-      "total_value": 100175.94,
+      "total_value": 100291.13,
       "cash": 31.48,
       "daily_pnl": -584.77,
-      "total_pnl_pct": 0.18
+      "total_pnl_pct": 0.29
+    },
+    {
+      "date": "2026-10-30",
+      "total_value": 100109.89,
+      "cash": 31.48,
+      "daily_pnl": -181.24,
+      "total_pnl_pct": 0.11
     }
   ],
   "trade_journal": [
@@ -654,6 +661,26 @@
       "total_usd": 4293.13,
       "realized_pnl": 0.0,
       "reason": "High Asymmetry (10.0x) & Conviction (90/100) (Partial \u2014 limited by available buying power $4,325)"
+    },
+    {
+      "date": "2026-10-30 18:58:53",
+      "action": "SELL",
+      "ticker": "KGC",
+      "shares": 174,
+      "price": 19.73,
+      "total_usd": 3433.02,
+      "realized_pnl": -708.18,
+      "reason": "Reallocating capital: Conviction score (50/100) below target threshold."
+    },
+    {
+      "date": "2026-10-30 18:58:53",
+      "action": "BUY",
+      "ticker": "AU",
+      "shares": 44,
+      "price": 78.42,
+      "total_usd": 3450.48,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (10.0x) & Conviction (94/100) (Partial \u2014 limited by available buying power $3,464)"
     }
   ]
 }
