@@ -1,7 +1,7 @@
 {
   "initial_capital": 100000.0,
-  "cash_balance": 14.02,
-  "total_realized_pnl": -664.39,
+  "cash_balance": 10.46,
+  "total_realized_pnl": -716.92,
   "holdings": {
     "QQQ": {
       "shares": 83,
@@ -10,10 +10,6 @@
     "OXY": {
       "shares": 61,
       "avg_cost": 59.06
-    },
-    "INCY": {
-      "shares": 51,
-      "avg_cost": 121.07
     },
     "CVX": {
       "shares": 31,
@@ -34,6 +30,10 @@
     "AU": {
       "shares": 44,
       "avg_cost": 78.42
+    },
+    "HMY": {
+      "shares": 403,
+      "avg_cost": 15.2
     }
   },
   "history": [
@@ -449,6 +449,13 @@
       "cash": 14.02,
       "daily_pnl": -181.24,
       "total_pnl_pct": 0.23
+    },
+    {
+      "date": "2026-11-02",
+      "total_value": 99935.68,
+      "cash": 14.02,
+      "daily_pnl": -296.46,
+      "total_pnl_pct": -0.06
     }
   ],
   "trade_journal": [
@@ -681,6 +688,26 @@
       "total_usd": 3450.48,
       "realized_pnl": 0.0,
       "reason": "High Asymmetry (10.0x) & Conviction (94/100) (Partial \u2014 limited by available buying power $3,464)"
+    },
+    {
+      "date": "2026-11-02 22:35:32",
+      "action": "SELL",
+      "ticker": "INCY",
+      "shares": 51,
+      "price": 120.04,
+      "total_usd": 6122.04,
+      "realized_pnl": -52.53,
+      "reason": "Reallocating capital: Conviction score (47/100) below target threshold."
+    },
+    {
+      "date": "2026-11-02 22:35:32",
+      "action": "BUY",
+      "ticker": "HMY",
+      "shares": 403,
+      "price": 15.2,
+      "total_usd": 6125.6,
+      "realized_pnl": 0.0,
+      "reason": "High Asymmetry (10.0x) & Conviction (88/100) (Partial \u2014 limited by available buying power $6,136)"
     }
   ]
 }
