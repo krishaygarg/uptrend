@@ -1,26 +1,9 @@
 {
-  "total_equity": 99935.68,
-  "holdings_valuation": 99921.66,
-  "current_cash": 14.02,
+  "total_equity": 100319.33,
+  "holdings_valuation": 100308.87,
+  "current_cash": 10.46,
   "target_cash_reserve": 0.0,
-  "rebalancing_trades": [
-    {
-      "action": "SELL",
-      "ticker": "INCY",
-      "shares": 51,
-      "price": 120.04,
-      "total_usd": 6122.04,
-      "reason": "Reallocating capital: Conviction score (47/100) below target threshold."
-    },
-    {
-      "action": "BUY",
-      "ticker": "HMY",
-      "shares": 403,
-      "price": 15.2,
-      "total_usd": 6125.6,
-      "reason": "High Asymmetry (10.0x) & Conviction (88/100) (Partial \u2014 limited by available buying power $6,136)"
-    }
-  ],
+  "rebalancing_trades": [],
   "target_portfolio": [
     {
       "ticker": "QQQ",
@@ -36,56 +19,56 @@
     {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
-      "price": 60.72,
-      "target_shares": 85,
-      "target_value": 5161.2,
-      "target_weight_pct": 5.2,
+      "price": 60.35,
+      "target_shares": 111,
+      "target_value": 6698.85,
+      "target_weight_pct": 6.7,
       "conviction_score": 95,
-      "asymmetry_ratio": 4.31,
-      "is_core": false
-    },
-    {
-      "ticker": "DLO",
-      "company_name": "DLocal Limited",
-      "price": 13.24,
-      "target_shares": 541,
-      "target_value": 7162.84,
-      "target_weight_pct": 7.2,
-      "conviction_score": 90,
-      "asymmetry_ratio": 6.28,
-      "is_core": false
-    },
-    {
-      "ticker": "NBIX",
-      "company_name": "Neurocrine Biosciences, Inc.",
-      "price": 145.35,
-      "target_shares": 36,
-      "target_value": 5232.6,
-      "target_weight_pct": 5.3,
-      "conviction_score": 90,
-      "asymmetry_ratio": 4.61,
+      "asymmetry_ratio": 4.48,
       "is_core": false
     },
     {
       "ticker": "AU",
       "company_name": "AngloGold Ashanti plc",
-      "price": 82.26,
-      "target_shares": 135,
-      "target_value": 11105.1,
-      "target_weight_pct": 11.2,
-      "conviction_score": 88,
+      "price": 81.27,
+      "target_shares": 148,
+      "target_value": 12027.96,
+      "target_weight_pct": 12.0,
+      "conviction_score": 94,
       "asymmetry_ratio": 10.0,
       "is_core": false
     },
     {
-      "ticker": "HMY",
-      "company_name": "Harmony Gold Mining Company Limited",
-      "price": 15.2,
-      "target_shares": 734,
-      "target_value": 11156.8,
-      "target_weight_pct": 11.2,
+      "ticker": "DLO",
+      "company_name": "DLocal Limited",
+      "price": 13.21,
+      "target_shares": 689,
+      "target_value": 9101.69,
+      "target_weight_pct": 9.1,
+      "conviction_score": 90,
+      "asymmetry_ratio": 6.4,
+      "is_core": false
+    },
+    {
+      "ticker": "SCCO",
+      "company_name": "Southern Copper Corporation",
+      "price": 172.68,
+      "target_shares": 30,
+      "target_value": 5180.4,
+      "target_weight_pct": 5.3,
+      "conviction_score": 89,
+      "asymmetry_ratio": 3.76,
+      "is_core": false
+    },
+    {
+      "ticker": "EOG",
+      "company_name": "EOG Resources, Inc.",
+      "price": 155.02,
+      "target_shares": 26,
+      "target_value": 4030.52,
+      "target_weight_pct": 4.1,
       "conviction_score": 88,
-      "asymmetry_ratio": 10.0,
+      "asymmetry_ratio": 2.96,
       "is_core": false
     }
   ]
