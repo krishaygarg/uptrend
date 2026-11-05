@@ -1,6 +1,6 @@
 {
-  "total_equity": 101255.7,
-  "holdings_valuation": 101245.24,
+  "total_equity": 101058.23,
+  "holdings_valuation": 101047.77,
   "current_cash": 10.46,
   "target_cash_reserve": 0.0,
   "rebalancing_trades": [],
@@ -17,58 +17,58 @@
       "is_core": true
     },
     {
-      "ticker": "SQM",
-      "company_name": "Sociedad Qu\u00edmica y Minera de Chile S.A.",
-      "price": 57.56,
-      "target_shares": 145,
-      "target_value": 8346.2,
-      "target_weight_pct": 8.3,
-      "conviction_score": 95,
-      "asymmetry_ratio": 4.41,
-      "is_core": false
-    },
-    {
-      "ticker": "MOD",
-      "company_name": "Modine Manufacturing Company",
-      "price": 98.56,
-      "target_shares": 122,
-      "target_value": 12024.32,
-      "target_weight_pct": 11.9,
-      "conviction_score": 92,
-      "asymmetry_ratio": 6.53,
-      "is_core": false
-    },
-    {
-      "ticker": "DLO",
-      "company_name": "DLocal Limited",
-      "price": 13.9,
-      "target_shares": 450,
-      "target_value": 6255.0,
-      "target_weight_pct": 6.2,
-      "conviction_score": 91,
-      "asymmetry_ratio": 3.43,
-      "is_core": false
-    },
-    {
-      "ticker": "HMY",
-      "company_name": "Harmony Gold Mining Company Limited",
-      "price": 16.41,
-      "target_shares": 444,
-      "target_value": 7286.04,
-      "target_weight_pct": 7.2,
-      "conviction_score": 88,
-      "asymmetry_ratio": 4.13,
-      "is_core": false
-    },
-    {
       "ticker": "OXY",
       "company_name": "Occidental Petroleum Corporation",
-      "price": 57.33,
-      "target_shares": 113,
-      "target_value": 6478.29,
-      "target_weight_pct": 6.4,
-      "conviction_score": 87,
-      "asymmetry_ratio": 3.73,
+      "price": 56.38,
+      "target_shares": 170,
+      "target_value": 9584.6,
+      "target_weight_pct": 9.5,
+      "conviction_score": 99,
+      "asymmetry_ratio": 6.15,
+      "is_core": false
+    },
+    {
+      "ticker": "TSM",
+      "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "price": 354.4,
+      "target_shares": 28,
+      "target_value": 9923.2,
+      "target_weight_pct": 10.2,
+      "conviction_score": 95,
+      "asymmetry_ratio": 6.85,
+      "is_core": false
+    },
+    {
+      "ticker": "MU",
+      "company_name": "Micron Technology, Inc.",
+      "price": 662.68,
+      "target_shares": 11,
+      "target_value": 7289.48,
+      "target_weight_pct": 7.4,
+      "conviction_score": 95,
+      "asymmetry_ratio": 4.99,
+      "is_core": false
+    },
+    {
+      "ticker": "EOG",
+      "company_name": "EOG Resources, Inc.",
+      "price": 145.05,
+      "target_shares": 41,
+      "target_value": 5947.05,
+      "target_weight_pct": 5.9,
+      "conviction_score": 94,
+      "asymmetry_ratio": 4.03,
+      "is_core": false
+    },
+    {
+      "ticker": "SCCO",
+      "company_name": "Southern Copper Corporation",
+      "price": 165.32,
+      "target_shares": 42,
+      "target_value": 6943.44,
+      "target_weight_pct": 7.0,
+      "conviction_score": 92,
+      "asymmetry_ratio": 4.87,
       "is_core": false
     }
   ]
